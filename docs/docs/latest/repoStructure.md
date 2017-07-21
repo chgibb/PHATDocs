@@ -1,7 +1,7 @@
-[Home](https://chgibb.github.io/PHAT/)
+[Home](https://chgibb.github.io/PHATDocs/)
 
 #### For $TAGNAME$
-[Contents](https://chgibb.github.io/PHAT/docs/latest/home)
+[Contents](https://chgibb.github.io/PHATDocs/docs/latest/home)
 
 # Repository Structure
 
@@ -58,4 +58,4 @@ Modules used by the ```main process```. Each ```fooRenderer.ts``` file in the to
 ### src/operations
 Each file in the top level of this directory contains a single operation. Sub directories correspond to helper modules/pieces of their corresponding operation. Some operations use modules which are not stored here.
 
-[Contents](https://chgibb.github.io/PHAT/docs/latest/home)
+[Contents](https://chgibb.github.io/PHATDocs/docs/latest/home)
