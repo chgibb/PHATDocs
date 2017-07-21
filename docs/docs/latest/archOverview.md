@@ -1,7 +1,7 @@
-[Home](https://chgibb.github.io/PHAT/)
+[Home](https://chgibb.github.io/PHATDocs/)
 
 #### For $TAGNAME$
-[Contents](https://chgibb.github.io/PHAT/docs/latest/home)
+[Contents](https://chgibb.github.io/PHATDocs/docs/latest/home)
 
 # Overview
 PHAT is built against the [Electron framework](https://electron.atom.io/) using (primarily) [Typescript](https://www.typescriptlang.org/). Familiarity with both Electron, [Node](https://nodejs.org/en/) and Typescript is assumed.
@@ -14,4 +14,4 @@ Many operations (such as opening a project, or running an alignment) are multi s
 
 This isolation is reflected in the bundling of application code as well. Attempting to keep each process' bundle as small as possible ensures fast startup of the application itself as well as individual application windows. This is combined with the use of ahead of time bundle compilation using [V8's code caching feature](https://v8project.blogspot.ca/2015/07/code-caching.html). See also [PHAT's code caching module](https://github.com/chgibb/PHAT/blob/master/src/req/bootStrapCodeCache.ts). 
 
-[Contents](https://chgibb.github.io/PHAT/docs/latest/home)
+[Contents](https://chgibb.github.io/PHATDocs/docs/latest/home)
