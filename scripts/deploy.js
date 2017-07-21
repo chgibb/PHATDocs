@@ -1,3 +1,4 @@
+const getLastTag = require("./getLastTag");
 const appendNewCommitsToChangeLog = require("./appendNewCommitsToChangeLog");
 const generateReleaseDocsFromLatest = require("./generateReleaseDocsFromLatest");
 const generateDownloadTemplate = require("./generateDownloadTemplate");
@@ -10,7 +11,8 @@ const tag_name = args[1];
 const type = args[2];
 
 (async function(){
-    await appendNewCommitsToChangeLog("chgibb","PHAT",args[0],args[1],type);
+    let lastTag = await getLastTag("chgibb","PHAT",token,type);
+    await appendNewCommitsToChangeLog("chgibb","PHAT",args[0],lastTag,tag_name,type);
     await generateReleaseDocsFromLatest(tag_name);
     await generateDownloadTemplate(type,tag_name);
     await appendToAllReleases(tag_name,type);
