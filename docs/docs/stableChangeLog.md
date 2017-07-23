@@ -1,0 +1,1 @@
+* Expanded input filters for file extensions [#451](https://github.com/chgibb/PHAT/issues/451)
