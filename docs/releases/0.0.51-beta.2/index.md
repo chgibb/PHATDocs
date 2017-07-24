@@ -16,7 +16,7 @@
 
 ### Changelog
 * Added "Go Back" navigation buttons to top of overall alignment and SNP reports [#459](https://github.com/chgibb/PHAT/issues/459)  
-* Fix for critical bug #540. PHAT@0.0.50 was taken down as a result.  
+* Fix for critical bug [#540](https://github.com/chgibb/PHAT/issues/540). PHAT@0.0.50 was taken down as a result.  
 ## 16 Commits Since Last Release (0.0.51-beta.1) (most recent last)  
 Chris Gibb: [increased delay](https://github.com/chgibb/PHAT/commit/c8749d2be3ce871011f901c2071343712b714e36)  
 Chris Gibb: [Bumped](https://github.com/chgibb/PHAT/commit/94d46728f39eac072b313d8bcb3a3f1a28ebbcbe)  
