@@ -15,6 +15,7 @@ PHAT is under development in the Zehbe Lab (http://zehbelab.weebly.com/) at the 
 # Documentation for $TAGNAME$
 ## Contents
 1. [How to Get PHAT](https://chgibb.github.io/PHATDocs/docs/latest/howToGetPHAT)
+2. [Working With PHAT Projects](https://chgibb.github.io/PHATDocs/docs/latest/projects)
 
 ### Application Architecture
 1. [Overview](https://chgibb.github.io/PHATDocs/docs/latest/archOverview)
