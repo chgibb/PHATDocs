@@ -33,8 +33,7 @@ If you have installed PHAT for Windows, or are using a portable edition for eith
 
 PHAT publishes releases under "stable" and "beta" channels. By default, you will only recieve updates released as "stable". To change your update channel, upon starting PHAT, click "Help", and select a channel. PHAT will check for updates each time it is restarted.
 
-{:start="2"}
-2. [Working With PHAT Projects](https://chgibb.github.io/PHATDocs/docs/latest/projects)
+[Next: Working With PHAT Projects](https://chgibb.github.io/PHATDocs/docs/latest/projects)
 
 # About PHAT Updates and Releases
 PHAT updates are powered by Github releases. Each time PHAT is run, it will contact github.com and get the list of repository tags. It will look through the list of tags until it finds a tag version greater than it's current version. If successful, the update in the form of ```phat-plat-x64-update.tar.gz``` will be downloaded and unpacked overtop of itself. These are special packages built specifically to be used as updates. They will not function correctly if downloaded and ran by themselves.
