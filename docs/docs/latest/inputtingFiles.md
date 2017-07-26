@@ -24,6 +24,8 @@ When a file is "imported", it is physically copied into the project and the abov
 
 Before you export a project, ensure that those inputs which you want those you share the project with to be to able to run analyses are "imported". Any inputs which where "not imported" into the project prior to exporting will not be present and those you share the project with will only be able to view past analyses.
 
+[Next: Running Quality Control (QC) Reports](https://chgibb.github.io/PHATDocs/docs/latest/QCReports)
+
 # About Inputs
 When a file is input into PHAT, PHAT maintains a record of its location in the filesystem and little else. For operations which work with files directly (such as QC reports for read files, alignments, etc), PHAT passes the operation in question the absolute path to the files required as they existed when they were first input. Results from operations are stored within the project itself. This allows project's results to be shared without having to worry about lugging around potentially large primary datasets. File importing is handled as a special case. In addition to the results of a reference sequence being indexed, information about each contig in that sequence is stored in the project as well. This what allows them to be visualized even if they have been moved or not imported before exporting the project.  
 See: [file module](https://github.com/chgibb/PHAT/blob/$TAGNAME$/src/req/file.ts), [file import operation](https://github.com/chgibb/PHAT/blob/$TAGNAME$/src/req/operations/ImportFileIntoProject.ts).
