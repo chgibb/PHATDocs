@@ -12,7 +12,7 @@ In order to open a project from a file, instead of one from the list of projects
 
 The project named under "Currently Open Project" is the last project that you opened, and the one which is currently unpacked. Opening it will be extremely fast compared to opening a different project. If your project failed to save for some reason or PHAT happened to crash without saving, it will still be intact and openable from here. If you open a project other than the "Currently Open" one, anything which failed to save will be lost.
 
-3. [Inputting Files](https://chgibb.github.io/PHATDocs/docs/latest/inputtingFiles)
+3.  [Inputting Files](https://chgibb.github.io/PHATDocs/docs/latest/inputtingFiles)
 
 # About Projects
 PHAT maintains a single "run time" directory (```resources/app/rt/```) internally where all intermediary files and results are written to. A manifest file is maintained within (```resources/app/rt/rt.json```) that describes everything from input files and their locations, to the positions and sizes of various application windows. This folder and it's manifest are what makeup a PHAT project. Anything written into this directory will be saved along with the rest of the project.  
