@@ -29,7 +29,9 @@ For users who are not administrators on their computers or who wish to use PHAT 
 Though the Linux portable edition of PHAT is built on an Ubuntu Linux machine, it should be compatible with other Linux distributions. If this is not the case or you would like to see your favourite Linux distribution supported, please let us know by filing an [issue](https://github.com/chgibb/PHAT/issues).
 
 # Getting PHAT Updates
-PHAT's release cycle is relatively fast. If you have installed PHAT for Windows, or are using a portable edition for either Windows or Linux, PHAT will automatically check for updates and prompt you to download and install them as they become available. If you are using the installed (Debian package) edition of PHAT for Ubuntu Linux, PHAT will check for updates but will not download and install them. You will need to manually download and install the latest Debian package.
+If you have installed PHAT for Windows, or are using a portable edition for either Windows or Linux, PHAT will automatically check for updates and prompt you to download and install them as they become available. If you are using the installed (Debian package) edition of PHAT for Ubuntu Linux, PHAT will check for updates but will not download and install them. You will need to manually download and install the latest Debian package.
+
+PHAT publishes releases under "stable" and "beta" channels. By default, you will only recieve updates released as "stable". To change your update channel, upon starting PHAT, click "Help", and select a channel. PHAT will check for updates each time it is restarted.
 
 {:start="2"}
 2. [Working With PHAT Projects](https://chgibb.github.io/PHATDocs/docs/latest/projects)
