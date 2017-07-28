@@ -20,7 +20,7 @@ PHAT is available as an ```.rpm``` package for ```RPM``` based distributions. At
 
 
 # Portable PHAT
-For users who are not administrators on their computers or who wish to use PHAT on a USB device(not recommended for performance reasons, PHAT is considerably slower when run on a USB), portable editions are available.
+For users who are not administrators on their computers or who wish to use PHAT on a USB device (not recommended for performance reasons, PHAT is considerably slower when run on a USB), portable editions are available.
 ## Windows
 ```phat-win32-x64-portable.zip```
 
