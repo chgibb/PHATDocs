@@ -13,3 +13,6 @@ In order to cut a new release and generate documentation, this repo should be cl
 
 ```node scripts/deploy <token> <tag-name> beta | stable```
 Where ```<token>``` is a Github token with permission to create releases on https://github.com/chgibb/PHAT ```<tag-name>``` is the version (and git tag) for the release, followed finally by the branch to release from (either ```beta``` or ```stable```). This will result in documentation and changelog being generated, release history being updated and release being created. The results should be committed and pushed.
+
+# Contributing
+Please make all PRs against those files in ```docs/docs/latest/```. All files in latest are used to build documentation for the latest release when it is cut. Unless there is eronious information in documentation for previous releases, they should be left as is.
