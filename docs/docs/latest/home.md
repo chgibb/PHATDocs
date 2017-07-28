@@ -22,5 +22,5 @@ PHAT is under development in the Zehbe Lab (http://zehbelab.weebly.com/) at the 
 
 ### Application Architecture
 1. [Overview](https://chgibb.github.io/PHATDocs/docs/latest/archOverview)
-2. [Contributing](https://chgibb.github.io/PHATDocs/docs/latest/contributing)
+2. [Contributing](https://chgibb.github.io/PHATDocs/docs/latest/contributingGuide)
 3. [Repository Structure](https://chgibb.github.io/PHATDocs/docs/latest/repoStructure)
