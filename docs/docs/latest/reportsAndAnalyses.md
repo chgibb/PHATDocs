@@ -26,5 +26,7 @@ Clicking on the "SNPs Predicted" column for a given alignment will open a sub re
 ### Indels
 At the time of writing, PHAT uses Varscan to predict indels. However, we lack test data containing indels to allow us to build the feature. Help us [make PHAT better](https://github.com/chgibb/PHAT/pulls).
 
+[Next: Circular Visualization](https://chgibb.github.io/PHATDocs/docs/latest/circulrVisualization)
+
 
 [Contents](https://chgibb.github.io/PHATDocs/docs/latest/home)
