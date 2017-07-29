@@ -3,6 +3,8 @@
 #### For $TAGNAME$
 [Contents](https://chgibb.github.io/PHATDocs/docs/latest/home)
 
+[Previous: Running Alignments](https://chgibb.github.io/PHATDocs/docs/latest/runningAlignments)
+
 # Reports
 Reports on information about your read files and alignments are available in the output window. Click "OUTPUT" on the toolbar to open the window. This window presents a customizable table of information that can be exported to either Excel or comma-separated values (CSV) for further processing in other programs. Click on "OPTIONS" to toggle columns on and off and to change the report type. At any time, selecting either "Excel" or "CSV" in the options panel and clicking "EXPORT" will export the current table to the selected format. The rows which are visible in the report are controlled by selecting or unselecting inputs in the input window.
 
@@ -24,8 +26,5 @@ Clicking on the "SNPs Predicted" column for a given alignment will open a sub re
 ### Indels
 At the time of writing, PHAT uses Varscan to predict indels. However, we lack test data containing indels to allow us to build the feature. Help us [make PHAT better](https://github.com/chgibb/PHAT/pulls).
 
-
-
-[Previous: Running Alignments](https://chgibb.github.io/PHATDocs/docs/latest/runningAlignments)
 
 [Contents](https://chgibb.github.io/PHATDocs/docs/latest/home)
