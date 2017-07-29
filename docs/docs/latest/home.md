@@ -19,6 +19,7 @@ PHAT is under development in the Zehbe Lab (http://zehbelab.weebly.com/) at the 
 3. [Inputting Files](https://chgibb.github.io/PHATDocs/docs/latest/inputtingFiles)
 4. [Running Quality Control (QC) Reports](https://chgibb.github.io/PHATDocs/docs/latest/QCReports)
 5. [Running Alignments](https://chgibb.github.io/PHATDocs/docs/latest/runningAlignments)
+6. [Reports and Analyses](https://chgibb.github.io/PHATDocs/docs/latest/reportsAndAnalyses)
 
 ### Application Architecture
 1. [Overview](https://chgibb.github.io/PHATDocs/docs/latest/archOverview)

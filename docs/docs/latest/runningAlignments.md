@@ -12,6 +12,8 @@ PHAT performs 10 different steps when aligning. [Bowtie2](http://bowtie-bio.sour
 
 At the moment, parameters to tune and customize the steps in PHAT's alignment process are not made available to the user, defaults for each tool are used at each step. We are working to compile a list of useful parameters to expose to the user. Please file an issue on the [PHAT repository](https://github.com/chgibb/PHAT) and let us know what you want to see.
 
+[Next: Reports and Analyses](https://chgibb.github.io/PHATDocs/docs/latest/reportsAndAnalyses)
+
 # About Running Alignments
 See: [Class for information about a completed alignment](https://github.com/chgibb/PHAT/blob/$TAGNAME$/src/req/alignData.ts), [alignment operation](https://github.com/chgibb/PHAT/blob/$TAGNAME$/src/req/operations/RunAlignment.ts).
 
