@@ -1,3 +1,20 @@
+# PHAT 0.0.51
+### Downloads for This Release
+* [Windows Installer](https://github.com/chgibb/PHAT/releases/download/0.0.51/phat-win32-x64-setup.exe)  
+* [Ubuntu Linux Debian Package](https://github.com/chgibb/PHAT/releases/download/0.0.51/phat_0.0.51_amd64.deb)  
+* [Windows Portable](https://github.com/chgibb/PHAT/releases/download/0.0.51/phat-win32-x64-portable.zip)  
+* [Linux Portable](https://github.com/chgibb/PHAT/releases/download/0.0.51/phat-linux-x64-portable.tar.gz)
+#### Experimental
+* [Red Hat Package Manager](https://github.com/chgibb/PHAT/releases/download/0.0.51/phat-0.0.51.x86_64.rpm)
+
+### Documentation for This Release
+* [Documentation](https://chgibb.github.io/PHATDocs/docs/releases/0.0.51/home)
+
+### Browse Source Code for This Release
+* [Source for PHAT@0.0.51](https://github.com/chgibb/PHAT/tree/0.0.51)
+* [Source for PHAT](https://github.com/chgibb/PHAT)
+
+### Changelog
 * Expanded input filters for file extensions [#451](https://github.com/chgibb/PHAT/issues/451)
 * Fix for critical bug [#540](https://github.com/chgibb/PHAT/issues/540). PHAT@0.0.50 was taken down as a result.
 * Added "Go Back" navigation buttons to top of overall alignment and SNP reports [#459](https://github.com/chgibb/PHAT/issues/459)
