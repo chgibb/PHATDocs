@@ -17,7 +17,7 @@ The project named under "Currently Open Project" is the last project that you op
 [Next: Inputting Files](https://chgibb.github.io/PHATDocs/docs/latest/inputtingFiles)
 
 # About Projects
-PHAT maintains a single "run time" directory (```resources/app/rt/```) internally where all intermediary files and results are written to. A manifest file is maintained within (```resources/app/rt/rt.json```) that describes everything from input files and their locations, to the positions and sizes of various application windows. This folder and it's manifest are what makeup a PHAT project. Anything written into this directory will be saved along with the rest of the project.  
+PHAT maintains a single "run time" directory (```resources/app/rt/```) internally where all intermediary files and results are written to. A manifest file is maintained within (```resources/app/rt/rt.json```) that describes everything from input files and their locations, to the positions and sizes of various application windows. This folder and its manifest are what make up a PHAT project. Anything written into this directory will be saved along with the rest of the project.  
 
 PHAT makes a distinction between "open" and "not open" projects. An "open" project is that which currently resides in ```resources/app/rt/```. "Not open" projects are those which are not currently in ```resources/app/rt/``` and must have their tarballs unpacked into ```resources/app/rt/``` before they can be manipulated.
 
