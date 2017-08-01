@@ -1,3 +1,20 @@
+# PHAT 0.1.0-beta.1
+### Downloads for This Release
+* [Windows Installer](https://github.com/chgibb/PHAT/releases/download/0.1.0-beta.1/phat-win32-x64-setup.exe)  
+* [Ubuntu Linux Debian Package](https://github.com/chgibb/PHAT/releases/download/0.1.0-beta.1/phat_0.1.0.beta.1_amd64.deb)  
+* [Windows Portable](https://github.com/chgibb/PHAT/releases/download/0.1.0-beta.1/phat-win32-x64-portable.zip)  
+* [Linux Portable](https://github.com/chgibb/PHAT/releases/download/0.1.0-beta.1/phat-linux-x64-portable.tar.gz)
+#### Experimental
+* [Red Hat Package Manager](https://github.com/chgibb/PHAT/releases/download/0.1.0-beta.1/phat-0.1.0-beta.1.x86_64.rpm)
+
+### Documentation for This Release
+* [Documentation](https://chgibb.github.io/PHATDocs/docs/releases/0.1.0-beta.1/home)
+
+### Browse Source Code for This Release
+* [Source for PHAT@0.1.0-beta.1](https://github.com/chgibb/PHAT/tree/0.1.0-beta.1)
+* [Source for PHAT](https://github.com/chgibb/PHAT)
+
+### Changelog
 * Incorporate new button images across application. [#446](https://github.com/chgibb/PHAT/issues/446)
 * Bumped Electron version to 1.6.11
 * Removed authorization token check  
