@@ -1,4 +1,4 @@
-# Third Party Dependencies Bundled (in binary form) With PHAT
+# Third Party Dependencies Bundled (in binary form) With PHAT $TAGNAME$
 
 ## Windows
 - [Bowtie2](http://bowtie-bio.sourceforge.net/bowtie2/index.shtml) - [GPL-3.0](https://github.com/BenLangmead/bowtie2/blob/master/LICENSE)
