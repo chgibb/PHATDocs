@@ -5,6 +5,8 @@
 
 [Previous: Working With PHAT Projects](https://chgibb.github.io/PHATDocs/docs/latest/projects)
 
+![PHAT Input Button](https://chgibb.github.io//PHATDocs/docs/latest/InputButton.png)
+
 # Read Files
 PHAT's purpose is to make it easier to work with read files (```.fastq```) and reference sequences (```.fasta```, ```.fa```, etc); as such all aspects of PHAT revolve around these files. To input read files into PHAT, click "Input" on the toolbar. In the input window, click "Browse". By default, the file picker will only show you read files. After selecting read files to input, there may be a delay before they appear in the input window. PHAT will only do one task at a time. If you are doing other things with PHAT, inputting the files will wait until those other tasks have finished.
 
