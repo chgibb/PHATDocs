@@ -15,7 +15,7 @@ PHAT is under development in the Zehbe Lab ([http://zehbelab.weebly.com/](http:/
 **Team Member:** Shane Liu  
 **Team Member:** Jeremy Braun  
 
-[third party licenses](https://chgibb.github.io/PHATDocs/docs/latest/thirdParty)
+[Third Party Licenses](https://chgibb.github.io/PHATDocs/docs/latest/thirdParty)
 
 # Documentation for $TAGNAME$
 ## Contents
