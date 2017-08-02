@@ -26,7 +26,7 @@ By default a track interval of 500 is used but not shown. Click on the checkbox 
 Those contigs which are present in the reference file will be visualized and scaled accordingly. These are known as "Reference Contigs", referring to the fact that they are read from the reference file itself. You cannot change their start/end positions or vertical adjustment relative to the figure.
 
 ### Custom Contigs
-Unfortunately most reference files fail to annotate their sequences with the genes/chromosomes/other features we know exist. PHAT can only visualize what is present in the reference file. In order to add features to a figure which do not exist in its reference file, click "Add Contig" in the top bar and enter a start and end position to define where in the reference sequence this contig should be. After clicking "Save Changes", a contig called "New Contig" with a random colour will be rendered at the genomic range specified, and scaled accordingly.
+Unfortunately most reference files fail to annotate their sequences with the genes/chromosomes/other features we know exist. PHAT visualizes what is present in the reference file, while also enabling the user to add custom features. In order to add new features, click "Add Contig" in the top bar and enter a start and end position to define where in the reference sequence this contig should be. After clicking "Save Changes", a contig called "New Contig" with a random colour will be rendered at the genomic range specified, and scaled accordingly.
 
 ### Editing Contigs
 Reference contigs are limited in what properties are editable. You can change their fill colour, text colour and name. You cannot delete them nor change any other properties.
