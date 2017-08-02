@@ -6,7 +6,9 @@
 [Previous: How to Get PHAT](https://chgibb.github.io/PHATDocs/docs/releases/0.1.0/howToGetPHAT)
 
 # Projects
-PHAT uses the concept of projects to group and maintain sets of input data, results and intermediary files together so they can be saved, copied and shared as one package. To create a new project, upon starting PHAT, click on "Create New Project" and give it a name. It will be created and opened if you click "OK". 
+PHAT uses the concept of projects to group and maintain sets of input data, results and intermediary files together so they can be saved, copied and shared as one package. To create a new project, upon starting PHAT, click on "New Project" and give it a name. It will be created and opened if you click "OK". 
+
+![PHAT Projects](https://chgibb.github.io//PHATDocs/docs/latest/Project.png)
 
 When you create a project, it is saved in PHAT internally. In order to export your project to share it with others, upon starting PHAT, click "Open Project", and click "Export" beside the name of the project you want to export.
 
