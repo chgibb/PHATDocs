@@ -5,6 +5,8 @@
 
 [Previous: Reports and Analyses](https://chgibb.github.io/PHATDocs/docs/releases/0.1.0/reportsAndAnalyses)
 
+![PHAT Circ Button](https://chgibb.github.io//PHATDocs/docs/latest/CircButton.png)
+
 # Circular Visualization
 PHAT provides customizable circular vizualization of reference sequences through the PHAT genome builder. Click "GENOME BUILDER" on the toolbar to open it.
 
