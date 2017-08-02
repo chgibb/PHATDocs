@@ -5,6 +5,8 @@
 
 [Previous: Running Quality Control (QC) Reports](https://chgibb.github.io/PHATDocs/docs/releases/0.1.0/QCReports)
 
+![PHAT Align Button](https://chgibb.github.io//PHATDocs/docs/latest/AlignButton.png)
+
 # Running Alignments
 In order to run alignments against a reference, it must first be indexed. To run an alignment, click "ALIGN" on the toolbar. Select files to use as forward (1), and reverse (2) reads from the left, and the reference to align against on the right. A confirmation of your selection will appear when you have selected at least 1 read file and 1 reference. If performing paired end alignment, ensure that your forward read and reverse read files have been selected properly. Selecting mismatched files or reversing the ordering of paired files will result in errors or unexpected results. Once you have made your selection, click "ALIGN" which will appear if you have selected at least 1 read file and 1 reference. Feel free to queue multiple different alignments at the same time. PHAT will only run one alignment at a time. The status of the currently running alignment will be displayed at the bottom of the window.
 
