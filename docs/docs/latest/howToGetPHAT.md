@@ -35,6 +35,8 @@ If you have installed PHAT for Windows, or are using a portable edition for eith
 
 PHAT publishes releases under "stable" and "beta" channels. By default, you will only recieve updates released as "stable". To change your update channel, upon starting PHAT, click "Help", and select a channel. PHAT will check for updates each time it is restarted.
 
+![PHAT Stable vs Beta](https://chgibb.github.io//PHATDocs/docs/latest/StableBeta.png)
+
 [Next: Working With PHAT Projects](https://chgibb.github.io/PHATDocs/docs/latest/projects)
 
 # About PHAT Updates and Releases
