@@ -5,6 +5,8 @@
 
 [Previous: Running Alignments](https://chgibb.github.io/PHATDocs/docs/latest/runningAlignments)
 
+![PHAT Output Button](https://chgibb.github.io//PHATDocs/docs/latest/OutputButton.png)
+
 # Reports
 Reports on information about your read files and alignments are available in the output window. Click "OUTPUT" on the toolbar to open the window. This window presents a customizable table of information that can be exported to either Excel or comma-separated values (CSV) for further processing in other programs. Click on "OPTIONS" to toggle columns on and off and to change the report type. At any time, selecting either "Excel" or "CSV" in the options panel and clicking "EXPORT" will export the current table to the selected format. The rows which are visible in the report are controlled by selecting or unselecting inputs in the input window.
 
