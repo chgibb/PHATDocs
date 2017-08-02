@@ -16,6 +16,8 @@ In order to open a project from a file, instead of one from the list of projects
 
 The project named under "Currently Open Project" is the last project that you opened, and the one which is currently unpacked. Opening it will be extremely fast compared to opening a different project. If your project failed to save for some reason or PHAT happened to crash without saving, it will still be intact and openable from here. If you open a project other than the "Currently Open" one, anything which failed to save will be lost.
 
+![PHAT Toolbar](https://chgibb.github.io//PHATDocs/docs/latest/Toolbar.png)
+
 [Next: Inputting Files](https://chgibb.github.io/PHATDocs/docs/releases/0.1.0/inputtingFiles)
 
 # About Projects
