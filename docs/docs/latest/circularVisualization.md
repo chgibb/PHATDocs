@@ -10,7 +10,7 @@
 # Circular Visualization
 PHAT provides customizable circular vizualization of reference sequences through the PHAT genome builder. Click "GENOME BUILDER" on the toolbar to open it.
 
-![PHAT Circ Toolbar](https://chgibb.github.io//PHATDocs/docs/latest/CircToolbar.png)
+![PHAT Circ Toolbar](https://chgibb.github.io//PHATDocs/docs/latest/CircToolbar2.png)
 
 ## Creating and Opening Circular Figures
 By default, no figure is open in the editor. Click the "Figures" drop down to see a list of reference files and their figures available to open. Clicking "New Figure" underneath a reference file name will create and open a new figure for that reference file. By default, a figure's name is "New Figure". Below each reference file name is the name of each figure created from it. Click on a figure's name to open it.
