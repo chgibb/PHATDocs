@@ -25,6 +25,8 @@ Clicking "OPTIONS", and "Alignment Info" will change the report type to alignmen
 ### Visualizing Whole Alignment
 Clicking on the "Alias" column for a given alignment will allow you to view the entire alignment in a graphical pileup view. We make use of [Hammer Lab's](http://www.hammerlab.org/) [Pileup.js](https://github.com/hammerlab/pileup.js) to view alignments. We are not using all of the features of Pileup.js, if there are other features you'd like to see us use to help you better understand your alignments, [let us know](https://github.com/chgibb/PHAT/issues).
 
+![PHAT Output Pileup](https://chgibb.github.io//PHATDocs/docs/latest/OutputPileup.png)
+
 ### Mapped Reads Per Contig
 Clicking on the "Overall Alignment Rate %" column for a given alignment will open a sub report breaking down total mapped and unmapped reads for each contig in the reference aligned against. This report is generated from the [Samtools](http://www.htslib.org/doc/samtools.html) ```idxstats``` command.
 
