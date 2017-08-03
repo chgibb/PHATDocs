@@ -33,7 +33,7 @@ If a project has files which are "not imported", and the project is exported, th
 
 When a file is "imported", it is physically copied into the project and the above stipulations no longer apply. To "import" all the inputs which are selected, scroll to the bottom of the input window and click "IMPORT". Inputs can be identified as "imported" by the the text "In Project" under the "Path" column in their respective table.
 
-![PHAT Input Selected](https://chgibb.github.io//PHATDocs/docs/latest/InputSelected.png)
+![PHAT Input Import](https://chgibb.github.io//PHATDocs/docs/latest/InputImport.png)
 
 Before you export a project, ensure that those inputs which you want those you share the project with to be to able to run analyses are "imported". Any inputs which where "not imported" into the project prior to exporting will not be present and those you share the project with will only be able to view past analyses.
 
