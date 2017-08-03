@@ -23,6 +23,8 @@ Inputting reference sequences follows the same process. Just change the filter i
 # Working With Inputs
 PHAT makes a distinction between "selected" and "unselected" inputs. By default, files that are input into PHAT are "selected". Those inputs which are "selected", will appear for use across PHAT. Those things which are results of multiple inputs (such as alignments), require all of their inputs to be "selected" in order for their results to appear. Those inputs which are "unselected" will not appear in other parts of PHAT. A given input can be identified as "selected" in the input window by appearing bolded in its respective table, and unbolded if "unselected".
 
+![PHAT Input Selected](https://chgibb.github.io//PHATDocs/docs/latest/InputSelected.png)
+
 PHAT makes a distinction between inputs which are "imported" and "not imported". By default, when you input a file it is "not imported". Inputs can be identified as "not imported" by having their absolute path under the "Path" column in its respective table.
 
 For those read and reference files which are "not imported", if they are moved, deleted or otherwise modified since they were input into PHAT, trying to perform other operations with them may break or have unexpected results. The exception to this rule for reference sequences is sequence visualization either through PHAT's circular genome builder, or alignment viewing through the pileup viewer. 
