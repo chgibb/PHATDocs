@@ -19,6 +19,7 @@ By default, upon lauching the input window, QC reports for your read files are s
 Clicking "OPTIONS", and "Alignment Info" will change the report type to alignments. By default only a few columns are shown. Unlike the QC reports mentioned above, there are sub tables available to view and export within each alignment report.
 
 ![PHAT Output Options](https://chgibb.github.io//PHATDocs/docs/latest/OutputOptions.png)
+
 ![PHAT Output Align](https://chgibb.github.io//PHATDocs/docs/latest/OutputAlign.png)
 
 ### Visualizing Whole Alignment
