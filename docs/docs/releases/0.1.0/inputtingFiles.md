@@ -8,7 +8,7 @@
 ![PHAT Input Button](https://chgibb.github.io//PHATDocs/docs/latest/InputButton.png)
 
 # Read Files
-PHAT's purpose is to make it easier to work with read files (```.fastq```) and reference sequences (```.fasta```, ```.fa```, etc); as such all aspects of PHAT revolve around these files. To input read files into PHAT, click "INPUT" on the toolbar. In the input window, click "Browse". By default, the file picker will only show you read files. After selecting read files to input, there may be a delay before they appear in the input window. PHAT will only do one task at a time. If you are doing other things with PHAT, inputting the files will wait until those other tasks have finished.
+PHAT's purpose is to make it easier to work with read files (```.fastq```) and reference sequences (```.fasta```, ```.fa```, etc); as such all aspects of PHAT revolve around these files. To input read files into PHAT, click "INPUT" on the toolbar. In the input window, click "BROWSE". By default, the file picker will only show you read files. After selecting read files to input, there may be a delay before they appear in the input window. PHAT will only do one task at a time. If you are doing other things with PHAT, inputting the files will wait until those other tasks have finished.
 
 ![PHAT Input Reads](https://chgibb.github.io//PHATDocs/docs/latest/InputReads.png)
 ![PHAT Input Browse Reads](https://chgibb.github.io//PHATDocs/docs/latest/InputBrowseReads.png)
@@ -31,7 +31,9 @@ For those read and reference files which are "not imported", if they are moved, 
 
 If a project has files which are "not imported", and the project is exported, the same stipulations above will apply for those files which are "not imported".
 
-When a file is "imported", it is physically copied into the project and the above stipulations no longer apply. To "import" all the inputs which are selected, scroll to the bottom of the input window and click "Import Selected Files Into Project". Inputs can be identified as "imported" by the the text "In Project" under the "Path" column in their respective table.
+When a file is "imported", it is physically copied into the project and the above stipulations no longer apply. To "import" all the inputs which are selected, scroll to the bottom of the input window and click "IMPORT". Inputs can be identified as "imported" by the the text "In Project" under the "Path" column in their respective table.
+
+![PHAT Input Selected](https://chgibb.github.io//PHATDocs/docs/latest/InputSelected.png)
 
 Before you export a project, ensure that those inputs which you want those you share the project with to be to able to run analyses are "imported". Any inputs which where "not imported" into the project prior to exporting will not be present and those you share the project with will only be able to view past analyses.
 
