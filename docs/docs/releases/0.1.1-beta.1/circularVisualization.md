@@ -41,6 +41,8 @@ Unfortunately most reference files fail to annotate their sequences with the gen
 ### Editing Contigs
 Reference contigs are limited in what properties are editable. You can change their fill colour, text colour and name. You cannot delete them nor change any other properties.
 
+![PHAT Ref Contig](https://chgibb.github.io//PHATDocs/docs/latest/RefContig.png)
+
 Custom contigs are free to edit as you see fit. You can change their fill colour, text colour, name, vertical adjustment, start and end positions as well as delete them.
 
 Hover over the contig you want to edit until it becomes highlighted, then left click. Click "Save Changes" in the resulting dialog box to save your changes to the contig. Click "Cancel", or click away to cancel.
