@@ -15,10 +15,14 @@ PHAT provides customizable circular vizualization of reference sequences through
 ## Creating and Opening Circular Figures
 By default, no figure is open in the editor. Click the "Figures" drop down to see a list of reference files and their figures available to open. Clicking "New Figure" underneath a reference file name will create and open a new figure for that reference file. By default, a figure's name is "New Figure". Below each reference file name is the name of each figure created from it. Click on a figure's name to open it.
 
+![PHAT New Figure](https://chgibb.github.io//PHATDocs/docs/latest/NewFigure.png)
+
 ## Brand New Figure
 Creating a new figure will generate a visualization of just what is inside of its reference file. Contigs contained within the reference file will be assigned random colours and scaled according to the total size in nucleotides of the reference.
 
 By default, a figure's name is "New Figure". Hover over the name of the figure in its centre and click on it to rename it.
+
+![PHAT Name Figure](https://chgibb.github.io//PHATDocs/docs/latest/NameFigure.png)
 
 By default, a figure's radius is 120. To grow or shrink a figure, edit the radius in the top bar and then click "Update" or press "Enter" to apply the changes to the figure.
 
