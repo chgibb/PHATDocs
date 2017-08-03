@@ -28,6 +28,8 @@ By default, a figure's radius is 120. To grow or shrink a figure, edit the radiu
 
 By default a track interval of 500 is used but not shown. Click on the checkbox next to "Update" to show or hide the interval. Edit the interval distance in the top bar and click "Update" or press "Enter" to apply the changes to the figure.
 
+![PHAT Update Figure](https://chgibb.github.io//PHATDocs/docs/latest/UpdateFigure.png)
+
 ## Working With Contigs
 
 ### Reference Contigs
