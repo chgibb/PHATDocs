@@ -19,6 +19,7 @@ By default, upon lauching the input window, QC reports for your read files are s
 Clicking "OPTIONS", and "Alignment Info" will change the report type to alignments. By default only a few columns are shown. Unlike the QC reports mentioned above, there are sub tables available to view and export within each alignment report.
 
 ![PHAT Output Options](https://chgibb.github.io//PHATDocs/docs/latest/OutputOptions.png)
+![PHAT Output Align](https://chgibb.github.io//PHATDocs/docs/latest/OutputAlign.png)
 
 ### Visualizing Whole Alignment
 Clicking on the "Alias" column for a given alignment will allow you to view the entire alignment in a graphical pileup view. We make use of [Hammer Lab's](http://www.hammerlab.org/) [Pileup.js](https://github.com/hammerlab/pileup.js) to view alignments. We are not using all of the features of Pileup.js, if there are other features you'd like to see us use to help you better understand your alignments, [let us know](https://github.com/chgibb/PHAT/issues).
