@@ -1,3 +1,20 @@
+# PHAT 0.1.1-beta.3
+### Downloads for This Release
+* [Windows Installer](https://github.com/chgibb/PHAT/releases/download/0.1.1-beta.3/phat-win32-x64-setup.exe)  
+* [Ubuntu Linux Debian Package](https://github.com/chgibb/PHAT/releases/download/0.1.1-beta.3/phat_0.1.1.beta.3_amd64.deb)  
+* [Windows Portable](https://github.com/chgibb/PHAT/releases/download/0.1.1-beta.3/phat-win32-x64-portable.zip)  
+* [Linux Portable](https://github.com/chgibb/PHAT/releases/download/0.1.1-beta.3/phat-linux-x64-portable.tar.gz)
+#### Experimental
+* [Red Hat Package Manager](https://github.com/chgibb/PHAT/releases/download/0.1.1-beta.3/phat-0.1.1-beta.3.x86_64.rpm)
+
+### Documentation for This Release
+* [Documentation](https://chgibb.github.io/PHATDocs/docs/releases/0.1.1-beta.3/home)
+
+### Browse Source Code for This Release
+* [Source for PHAT@0.1.1-beta.3](https://github.com/chgibb/PHAT/tree/0.1.1-beta.3)
+* [Source for PHAT](https://github.com/chgibb/PHAT)
+
+### Changelog
 * Overhaul of genome builder rendering pipeline to use multithreaded SVG compilation  
 ## 49 Commits Since Last Release (0.1.1-beta.2) (most recent last)  
 Chris Gibb: [Updated](https://github.com/chgibb/PHAT/commit/45f1bd4be8c7c4b88f1d9eb8f588d4752c8ef5b7)  
