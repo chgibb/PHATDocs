@@ -1,3 +1,20 @@
+# PHAT 0.1.1-beta.7
+### Downloads for This Release
+* [Windows Installer](https://github.com/chgibb/PHAT/releases/download/0.1.1-beta.7/phat-win32-x64-setup.exe)  
+* [Ubuntu Linux Debian Package](https://github.com/chgibb/PHAT/releases/download/0.1.1-beta.7/phat_0.1.1.beta.7_amd64.deb)  
+* [Windows Portable](https://github.com/chgibb/PHAT/releases/download/0.1.1-beta.7/phat-win32-x64-portable.zip)  
+* [Linux Portable](https://github.com/chgibb/PHAT/releases/download/0.1.1-beta.7/phat-linux-x64-portable.tar.gz)
+#### Experimental
+* [Red Hat Package Manager](https://github.com/chgibb/PHAT/releases/download/0.1.1-beta.7/phat-0.1.1-beta.7.x86_64.rpm)
+
+### Documentation for This Release
+* [Documentation](https://chgibb.github.io/PHATDocs/docs/releases/0.1.1-beta.7/home)
+
+### Browse Source Code for This Release
+* [Source for PHAT@0.1.1-beta.7](https://github.com/chgibb/PHAT/tree/0.1.1-beta.7)
+* [Source for PHAT](https://github.com/chgibb/PHAT)
+
+### Changelog
   
 ## 25 Commits Since Last Release (0.1.1-beta.6) (most recent last)  
 RobJackson28: [New installer animation for PHAT](https://github.com/chgibb/PHAT/commit/5b6f675e05fec0833d7eb785509cd062453339a2)  
