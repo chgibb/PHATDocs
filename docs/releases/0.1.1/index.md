@@ -1,3 +1,20 @@
+# PHAT 0.1.1
+### Downloads for This Release
+* [Windows Installer](https://github.com/chgibb/PHAT/releases/download/0.1.1/phat-win32-x64-setup.exe)  
+* [Ubuntu Linux Debian Package](https://github.com/chgibb/PHAT/releases/download/0.1.1/phat_0.1.1_amd64.deb)  
+* [Windows Portable](https://github.com/chgibb/PHAT/releases/download/0.1.1/phat-win32-x64-portable.zip)  
+* [Linux Portable](https://github.com/chgibb/PHAT/releases/download/0.1.1/phat-linux-x64-portable.tar.gz)
+#### Experimental
+* [Red Hat Package Manager](https://github.com/chgibb/PHAT/releases/download/0.1.1/phat-0.1.1.x86_64.rpm)
+
+### Documentation for This Release
+* [Documentation](https://chgibb.github.io/PHATDocs/docs/releases/0.1.1/home)
+
+### Browse Source Code for This Release
+* [Source for PHAT@0.1.1](https://github.com/chgibb/PHAT/tree/0.1.1)
+* [Source for PHAT](https://github.com/chgibb/PHAT)
+
+### Changelog
 * Fix installer icons for Windows [#523](https://github.com/chgibb/PHAT/issues/523)
 * Fix for [#572](https://github.com/chgibb/PHAT/issues/572)
 * Overhaul of genome builder rendering pipeline to use multithreaded SVG compilation  
