@@ -11,9 +11,7 @@ PHAT is under development in the Zehbe Lab ([http://zehbelab.weebly.com/](http:/
 **Project Supervisor/Principal Investigator:** Dr. Ingeborg Zehbe, LU/TBRHRI Research Chair & Senior Scientist    
 **Project Lead/Biologist:** Robert Jackson, PhD Biotech Candidate    
 **Project Lead/Software Developer:** Chris Gibb, HBSc Comp Sci Student  
-**Team Member:** Mitchell Pynn  
-**Team Member:** Shane Liu  
-**Team Member:** Jeremy Braun  
+**Team Members:** Mitchell Pynn, Shane Liu, Jeremy Braun
 
 [Third Party Licenses](https://chgibb.github.io/PHATDocs/docs/latest/thirdParty)
 
