@@ -5,7 +5,7 @@ title: Home
 ### Latest Stable
 [PHAT@0.1.1](https://chgibb.github.io/PHATDocs/releases/0.1.1/index)
 ### Latest Beta
-[PHAT@0.1.1-beta.7](https://chgibb.github.io/PHATDocs/releases/0.1.1-beta.7/index)
+[PHAT@0.1.2-beta.1](https://chgibb.github.io/PHATDocs/releases/0.1.2-beta.1/index)
 
 #### [Release History](https://chgibb.github.io/PHATDocs/allReleases)
 
@@ -16,6 +16,4 @@ PHAT is under development in the Zehbe Lab ([http://zehbelab.weebly.com/](http:/
 **Project Supervisor/Principal Investigator:** Dr. Ingeborg Zehbe, LU/TBRHRI Research Chair & Senior Scientist    
 **Project Lead/Biologist:** Robert Jackson, PhD Biotech Candidate    
 **Project Lead/Software Developer:** Chris Gibb, HBSc Comp Sci Student  
-**Team Member:** Mitchell Pynn  
-**Team Member:** Shane Liu  
-**Team Member:** Jeremy Braun  
+**Team Members:** Mitchell Pynn, Shane Liu, Jeremy Braun
