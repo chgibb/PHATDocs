@@ -5,7 +5,7 @@ title: Home
 ### Latest Stable
 [PHAT@0.1.1](https://chgibb.github.io/PHATDocs/releases/0.1.1/index)
 ### Latest Beta
-[PHAT@0.1.2-beta.1](https://chgibb.github.io/PHATDocs/releases/0.1.2-beta.1/index)
+[PHAT@0.1.3-beta.1](https://chgibb.github.io/PHATDocs/releases/0.1.3-beta.1/index)
 
 #### [Release History](https://chgibb.github.io/PHATDocs/allReleases)
 
