@@ -38,6 +38,8 @@ Those contigs which are present in the reference file will be visualized and sca
 ### Custom Contigs
 Unfortunately most reference files fail to annotate their sequences with the genes/chromosomes/other features we know exist. PHAT visualizes what is present in the reference file, while also enabling the user to add custom features. In order to add new features, click "Add Contig" in the top bar and enter a start and end position to define where in the reference sequence this contig should be. After clicking "Save Changes", a contig called "New Contig" with a random colour will be rendered at the genomic range specified, and scaled accordingly.
 
+![PHAT Add Contig](https://chgibb.github.io//PHATDocs/docs/latest/AddContig.png)
+
 ### Editing Contigs
 Reference contigs are limited in what properties are editable. You can change their fill colour, text colour and name. You cannot delete them nor change any other properties.
 
