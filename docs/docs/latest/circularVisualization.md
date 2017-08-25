@@ -54,6 +54,8 @@ Hover over the contig you want to edit until it becomes highlighted, then left c
 ## Working With Data Tracks
 PHAT allows "tracks" of data generated from alignments to be applied to figures, on a per contig basis. Click on "Data Visualization" to view the alignments ran against the reference file. Click the "View Available Tracks" column in a given alignment to view data track options for it.
 
+![PHAT Select Align](https://chgibb.github.io//PHATDocs/docs/latest/SelectAlign.png)
+
 ### Creating Tracks
 PHAT allows visualization of alignment coverage and SNP positions as data tracks. By default, no tracks are available. Select a colour for the data track and then click "Generate Coverage Track" or "Generate SNP Track" beside the contig you want to generate a track for. This may take some time depending on the size of the read files and reference file involved. When the track generation is complete, it will be listed under the appropriate section at the top of the "Track Options" dialog, in the colour that it will be displayed in. Currently, you cannot change the colour of a data track after it has been generated.
 
