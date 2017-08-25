@@ -59,6 +59,8 @@ PHAT allows "tracks" of data generated from alignments to be applied to figures,
 ### Creating Tracks
 PHAT allows visualization of alignment coverage and SNP positions as data tracks. By default, no tracks are available. Select a colour for the data track and then click "Generate Coverage Track" or "Generate SNP Track" beside the contig you want to generate a track for. This may take some time depending on the size of the read files and reference file involved. When the track generation is complete, it will be listed under the appropriate section at the top of the "Track Options" dialog, in the colour that it will be displayed in. Currently, you cannot change the colour of a data track after it has been generated.
 
+![PHAT Generate Track](https://chgibb.github.io//PHATDocs/docs/latest/GenTrack.png)
+
 ### Viewing Tracks
 You can edit what tracks are displayed on a per alignment basis. Those tracks whose names are bolded will appear on the figure, those which are not bolded will not. You can toggle tracks on and off by clicking on their names. Click "Save Changes" to apply the changes.
 
