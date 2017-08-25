@@ -1,3 +1,20 @@
+# PHAT 0.1.5
+### Downloads for This Release
+* [Windows Installer](https://github.com/chgibb/PHAT/releases/download/0.1.5/phat-win32-x64-setup.exe)  
+* [Ubuntu Linux Debian Package](https://github.com/chgibb/PHAT/releases/download/0.1.5/phat_0.1.5_amd64.deb)  
+* [Windows Portable](https://github.com/chgibb/PHAT/releases/download/0.1.5/phat-win32-x64-portable.zip)  
+* [Linux Portable](https://github.com/chgibb/PHAT/releases/download/0.1.5/phat-linux-x64-portable.tar.gz)
+#### Experimental
+* [Red Hat Package Manager](https://github.com/chgibb/PHAT/releases/download/0.1.5/phat-0.1.5.x86_64.rpm)
+
+### Documentation for This Release
+* [Documentation](https://chgibb.github.io/PHATDocs/docs/releases/0.1.5/home)
+
+### Browse Source Code for This Release
+* [Source for PHAT@0.1.5](https://github.com/chgibb/PHAT/tree/0.1.5)
+* [Source for PHAT](https://github.com/chgibb/PHAT)
+
+### Changelog
 * Updated citation text  
 ## 18 Commits Since Last Release (0.1.4) (most recent last)  
 RobJackson28: [Added pre-print link](https://github.com/chgibb/PHAT/commit/23a802f1125007ac19253af3db539f4ced3168d8)  
