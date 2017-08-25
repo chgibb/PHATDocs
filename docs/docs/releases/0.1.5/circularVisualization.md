@@ -49,6 +49,8 @@ Custom contigs are free to edit as you see fit. You can change their fill colour
 
 Hover over the contig you want to edit until it becomes highlighted, then left click. Click "Save Changes" in the resulting dialog box to save your changes to the contig. Click "Cancel", or click away to cancel.
 
+![PHAT Edited Contig](https://chgibb.github.io//PHATDocs/docs/latest/EditedContig.png)
+
 ## Working With Data Tracks
 PHAT allows "tracks" of data generated from alignments to be applied to figures, on a per contig basis. Click on "Data Visualization" to view the alignments ran against the reference file. Click the "View Available Tracks" column in a given alignment to view data track options for it.
 
