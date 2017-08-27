@@ -38,6 +38,8 @@ Those contigs which are present in the reference file will be visualized and sca
 ### Custom Contigs
 Unfortunately most reference files fail to annotate their sequences with the genes/chromosomes/other features we know exist. PHAT visualizes what is present in the reference file, while also enabling the user to add custom features. In order to add new features, click "Add Contig" in the top bar and enter a start and end position to define where in the reference sequence this contig should be. After clicking "Save Changes", a contig called "New Contig" with a random colour will be rendered at the genomic range specified, and scaled accordingly.
 
+![PHAT Add Contig](https://chgibb.github.io//PHATDocs/docs/latest/AddContig.png)
+
 ### Editing Contigs
 Reference contigs are limited in what properties are editable. You can change their fill colour, text colour and name. You cannot delete them nor change any other properties.
 
@@ -47,11 +49,17 @@ Custom contigs are free to edit as you see fit. You can change their fill colour
 
 Hover over the contig you want to edit until it becomes highlighted, then left click. Click "Save Changes" in the resulting dialog box to save your changes to the contig. Click "Cancel", or click away to cancel.
 
+![PHAT Edited Contig](https://chgibb.github.io//PHATDocs/docs/latest/EditedContig.png)
+
 ## Working With Data Tracks
 PHAT allows "tracks" of data generated from alignments to be applied to figures, on a per contig basis. Click on "Data Visualization" to view the alignments ran against the reference file. Click the "View Available Tracks" column in a given alignment to view data track options for it.
 
+![PHAT Select Align](https://chgibb.github.io//PHATDocs/docs/latest/SelectAlign.png)
+
 ### Creating Tracks
 PHAT allows visualization of alignment coverage and SNP positions as data tracks. By default, no tracks are available. Select a colour for the data track and then click "Generate Coverage Track" or "Generate SNP Track" beside the contig you want to generate a track for. This may take some time depending on the size of the read files and reference file involved. When the track generation is complete, it will be listed under the appropriate section at the top of the "Track Options" dialog, in the colour that it will be displayed in. Currently, you cannot change the colour of a data track after it has been generated.
+
+![PHAT Generate Track](https://chgibb.github.io//PHATDocs/docs/latest/GenTrack.png)
 
 ### Viewing Tracks
 You can edit what tracks are displayed on a per alignment basis. Those tracks whose names are bolded will appear on the figure, those which are not bolded will not. You can toggle tracks on and off by clicking on their names. Click "Save Changes" to apply the changes.
