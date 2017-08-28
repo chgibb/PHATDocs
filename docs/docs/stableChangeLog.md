@@ -4,3 +4,4 @@
 * [#593](https://github.com/chgibb/PHAT/issues/593)
 * Update checking will now abort if it takes too long to connect to github.com
 * Startup performance improvements
+* More aggressively save project manifest. Reduces chance of data loss in the event of operations crashing
