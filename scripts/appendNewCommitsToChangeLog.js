@@ -16,7 +16,7 @@ module.exports = async function appendNewCommitsToChangeLog(user,repo,token,last
         });
         curl.on("close",function(){
             let commits = JSON.parse(res.toString()).commits;
-            fs.appendFileSync(`docs/docs/${branch}ChangeLog.md`,`${"\n"}[View full diff](https://github.com/repos/${user}/${repo}/compare/${last_tag}...${tag_name}) ${"\n"}`);
+            fs.appendFileSync(`docs/docs/${branch}ChangeLog.md`,`${"\n"}[View full diff](https://github.com/${user}/${repo}/compare/${last_tag}...${tag_name}) ${"\n"}`);
             fs.appendFileSync(`docs/docs/${branch}ChangeLog.md`,`  ${"\n"}## ${commits.length} Commits Since Last Release (${last_tag}) (most recent last)  ${"\n"}`);
             for(let i = 0; i != commits.length; ++i)
             {
