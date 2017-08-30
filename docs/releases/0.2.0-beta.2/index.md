@@ -17,8 +17,8 @@
 ### Changelog
 * Startup performance improvements
 * More aggressively save project manifest. Reduces chance of data loss in the event of operations crashing
-* Fixed desync in alignment progress and QC report generation in new windows
-[View full diff](https://github.com/repos/chgibb/PHAT/compare/0.2.0-beta.1...0.2.0-beta.2) 
+* Fixed desync in alignment progress and QC report generation in new windows  
+[View full diff](https://github.com/chgibb/PHAT/compare/0.2.0-beta.1...0.2.0-beta.2) 
   
 ## 27 Commits Since Last Release (0.2.0-beta.1) (most recent last)  
 Chris Gibb: [fixed typo](https://github.com/chgibb/PHAT/commit/99aa2ccb4c32c72398562e17f25116efdc5eed3c)  
