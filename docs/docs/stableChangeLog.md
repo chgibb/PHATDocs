@@ -8,3 +8,5 @@
 * Fixed desync in alignment progress and QC report generation in new windows
 * Allow importing of SAM files produced externally
 * Allow linking imported SAM files to inputted reference sequences for visualizations
+* Prototype process manager available from the "View" menu in all windows
+* Startup and RAM improvements
