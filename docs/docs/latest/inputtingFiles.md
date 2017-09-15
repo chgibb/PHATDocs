@@ -16,7 +16,11 @@ PHAT's purpose is to make it easier to work with read files (```.fastq```) and r
 ![PHAT Input Reads Success](https://chgibb.github.io//PHATDocs/docs/latest/InputReadsIn.png) 
 
 # Reference Sequences
-Inputting reference sequences follows the same process. Just click the "Ref Seq" button to change the input window to the Reference Sequence view. Before reference sequences can be used, they must be indexed. Clicking on the text "Not Indexed" on an unindexed reference sequence will begin to index it. This process can take some time depending on the size of the file as well as the power of your computer. A good rule is to have some amount of RAM greater than or equal to the size of the file you want to index. If you are trying to index large files (greater than 500MB), it is recommended to close all other applications on your computer while the operation runs. Indexing a reference sequence will make it available for all other operations across PHAT, including visualization.
+Inputting reference sequences follows the same process. Just click the "Ref Seq" button to change the input window to the Reference Sequence view.  
+
+Before reference sequences can be used for alignment, they must be indexed. Clicking on the text "Not Indexed" on an unindexed reference sequence will begin to index it. This process can take some time depending on the size of the file as well as the power of your computer. A good rule is to have some amount of RAM greater than or equal to the size of the file you want to index. If you are trying to index large files (greater than 500MB), it is recommended to close all other applications on your computer while the operation runs.  
+
+Before reference sequences can be used for visualization (including being linked to alignment maps inputted externally), they must be indexed for visualization. This operation is generally very fast and separate from indexing for alignment.
 
 ![PHAT Input Browse Refs](https://chgibb.github.io//PHATDocs/docs/latest/InputBrowseRefs.png)
 ![PHAT Input Index Refs](https://chgibb.github.io//PHATDocs/docs/latest/IndexedRef.png)
