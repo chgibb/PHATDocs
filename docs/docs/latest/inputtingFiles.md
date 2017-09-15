@@ -21,6 +21,11 @@ Inputting reference sequences follows the same process. Just click the "Ref Seq"
 ![PHAT Input Browse Refs](https://chgibb.github.io//PHATDocs/docs/latest/InputBrowseRefs.png)
 ![PHAT Input Index Refs](https://chgibb.github.io//PHATDocs/docs/latest/IndexedRef.png)
 
+# Alignment Maps
+PHAT can visualize and analyze alignment maps (```.sam``` or ```.bam```) produced on other platforms such as Galaxy. To import an alignment map, click the "Align" button to change the input window to the Alignment view. Note: alignment maps MUST have a header present in order to be inputted correctly. Before alignment maps can be visualized or analyzed, they must be "linked" to a reference sequence. Click on the "Ref Seq" column for an alignment map you want to link. A list of potientially compatible and potentially incompatible reference sequences will be presented. Click on the "Link This Ref" column for the reference you want to link to. If the reference you want to link to is listed under "Incompatible References", click on the "Reason" column to find out why. Note: PHAT only compares contig names between references and alignment maps to determine compatibility and its predictions may therefore not always be accurate. [Let us know how to make it better](https://github.com/chgibb/PHAT/issues).
+
+After an alignment map has been inputted and linked to a reference sequence, it will appear in the Output window as well as the Genome Builder as a visualization option for the reference it was linked to.
+
 # Working With Inputs
 PHAT makes a distinction between "selected" and "unselected" inputs. By default, files that are input into PHAT are "selected". Those inputs which are "selected", will appear for use across PHAT. Those things which are results of multiple inputs (such as alignments), require all of their inputs to be "selected" in order for their results to appear. Those inputs which are "unselected" will not appear in other parts of PHAT. A given input can be identified as "selected" in the input window by appearing bolded in its respective table, and unbolded if "unselected".
 
