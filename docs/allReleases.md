@@ -1,6 +1,7 @@
 ---
 title: All Releases
 ---
+Fri Sep 15 2017 14:45:29 GMT-0400 (EDT): [PHAT@0.4.0-beta.1](https://chgibb.github.io/PHATDocs/releases/0.4.0-beta.1/index) cut from beta  
 Wed Sep 06 2017 12:35:36 GMT-0400 (EDT): [PHAT@0.3.0-beta.1](https://chgibb.github.io/PHATDocs/releases/0.3.0-beta.1/index) cut from beta  
 Fri Sep 01 2017 21:44:09 GMT-0400 (EDT): [PHAT@0.2.0-beta.3](https://chgibb.github.io/PHATDocs/releases/0.2.0-beta.3/index) cut from beta  
 Tue Aug 29 2017 22:16:35 GMT-0400 (EDT): [PHAT@0.2.0-beta.2](https://chgibb.github.io/PHATDocs/releases/0.2.0-beta.2/index) cut from beta  
