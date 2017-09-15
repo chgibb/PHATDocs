@@ -20,7 +20,7 @@ By default, no figure is open in the editor. Click the "Figures" drop down to se
 ## Brand New Figure
 Creating a new figure will generate a visualization of just what is inside of its reference file. Contigs contained within the reference file will be assigned random colours and scaled according to the total size in nucleotides of the reference.
 
-By default, a figure's name is "New Figure". Hover over the name of the figure in its centre and click on it to rename it.
+By default, a figure's name is "New Figure". Hover over the name of the figure in its centre and click on it to rename it. The figure name can also be changed by clicking "Figure Options", "Edit Figure Name".
 
 ![PHAT Name Figure](https://chgibb.github.io//PHATDocs/docs/latest/NameFigure.png)
 
@@ -47,7 +47,7 @@ Reference contigs are limited in what properties are editable. You can change th
 
 Custom contigs are free to edit as you see fit. You can change their fill colour, text colour, name, vertical adjustment, start and end positions as well as delete them.
 
-Hover over the contig you want to edit until it becomes highlighted, then left click. Click "Save Changes" in the resulting dialog box to save your changes to the contig. Click "Cancel", or click away to cancel.
+Hover over the contig you want to edit until it becomes highlighted, then left click. Click "Save Changes" in the resulting dialog box to save your changes to the contig. Click "Cancel", or click away to cancel. Contigs can also be edited by clicking "Figure Options", "Edit Contigs" to see the full list of contigs in the figure. Click on the name of a contig to edit it.
 
 ![PHAT Edited Contig](https://chgibb.github.io//PHATDocs/docs/latest/EditedContig.png)
 
@@ -72,6 +72,12 @@ Creating contigs, annotating figures and generating data tracks can be a time co
 
 ## Deleting Figures
 To delete a figure, click "Figure Actions" on the top bar, then "Delete Figure". This cannot be undone.
+
+## Large Figures
+PHAT deals with "large figures" (references with millions of BP or 50 or more contigs) differently than other figures. By default, when creating a "large figure", it will not be interactive and the names of its contigs will not be displayed. These options can be toggled through the "Figure Options" menu. Note: Changing these default settings for "large figures" may freeze or crash PHAT or cause the figure to be unopenable in the future. These settings can be toggled on and off for all figures.
+
+## Resizing Figures With Data Tracks
+When resizing figures with data tracks, PHAT must recalculate the layout of all points on the track relative to the new size of the figure. This is not instantaneous. It can take some time depending on the size of the track. "Recalculating x tracks" will appear on the top bar, where "x" is the number of tracks left to recalculate when tracks are being recalculated. If a figure is non-interactive, it will be treated as a data track and will also need to be recalculated. 
 
 ## Performance
 At the time of writing, the genome builder tends to become slow when displaying many data tracks, particularly coverage tracks for large contigs. If you are trying to visualize many large data tracks, it is recommended to close other programs. Working with large, complex figures can become slow overtime. Unfortunately this is due to the technology the genome builder's editor is built upon. Changes made to a figure are saved as you make them but may take some time to reflect in the editor. In some cases it may be faster to make a change to a figure, close the genome builder and then open it again in a new window. We are working to try to improve the editor performance. You can always [help us out](https://github.com/chgibb/PHAT/pulls).
