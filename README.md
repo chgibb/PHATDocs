@@ -1,4 +1,6 @@
 # PHATDocs
+
+[![Greenkeeper badge](https://badges.greenkeeper.io/chgibb/PHATDocs.svg)](https://greenkeeper.io/)
 This repo contains the source code for https://chgibb.github.io/PHATDocs/ as well as the deployment system to make new releases of https://github.com/chgibb/PHAT available for users.
 
 Documentation, changelogs, release notes and download links for each release of PHAT should be kept up to date on PHATDocs. For each release of PHAT, documentation will be copied and links and tags patched from whats in the [latest docs](https://github.com/chgibb/PHATDocs/tree/master/docs/docs/latest). The release's download page will be taken from [here](https://github.com/chgibb/PHATDocs/blob/master/releaseTemplate.md) and its changelog generated from the appropriate template, dependent on what branch is being released from [here](https://github.com/chgibb/PHATDocs/tree/master/docs/docs).  
