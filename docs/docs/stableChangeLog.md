@@ -8,7 +8,7 @@
 * Fixed desync in alignment progress and QC report generation in new windows
 * Allow importing of SAM files produced externally
 * Allow linking imported SAM files to inputted reference sequences for visualizations
-* Prototype process manager available from the "View" menu in all windows
+* Prototype process manager available by pressing Ctrl+1 in any window
 * Startup and RAM improvements
 * Added indentation and formatting to all operation logs, making them more readable
 * Disable interactivity for large figures( >= 50 contigs or 1,000,000 BP)
@@ -16,3 +16,4 @@
 * Feed non interactive figures through the same SVG compilation pipeline as data tracks
 * Added "Figure Options" dropdown for access to the same editing options available through interacting with the figure
 * Interactivity and global contig name display toggles available through "Figure Options"
+* Fixed installer GIF for Windows [#628](https://github.com/chgibb/PHAT/issues/628)
