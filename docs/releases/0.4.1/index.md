@@ -1,3 +1,20 @@
+# PHAT 0.4.1
+### Downloads for This Release
+* [Windows Installer](https://github.com/chgibb/PHAT/releases/download/0.4.1/phat-win32-x64-setup.exe)  
+* [Ubuntu Linux Debian Package](https://github.com/chgibb/PHAT/releases/download/0.4.1/phat_0.4.1_amd64.deb)  
+* [Windows Portable](https://github.com/chgibb/PHAT/releases/download/0.4.1/phat-win32-x64-portable.zip)  
+* [Linux Portable](https://github.com/chgibb/PHAT/releases/download/0.4.1/phat-linux-x64-portable.tar.gz)
+#### Experimental
+* [Red Hat Package Manager](https://github.com/chgibb/PHAT/releases/download/0.4.1/phat-0.4.1.x86_64.rpm)
+
+### Documentation for This Release
+* [Documentation](https://chgibb.github.io/PHATDocs/docs/releases/0.4.1/home)
+
+### Browse Source Code for This Release
+* [Source for PHAT@0.4.1](https://github.com/chgibb/PHAT/tree/0.4.1)
+* [Source for PHAT](https://github.com/chgibb/PHAT)
+
+### Changelog
 * Split reference indexing into two options. Index for alignment, index for visualization
 * Allow importing of BAM files produced externally
 * Allow linking imported BAM files to inputted reference sequences for visualization
