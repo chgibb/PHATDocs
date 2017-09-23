@@ -31,6 +31,8 @@ Developing PHAT for Windows requires the following be installed manually:
 - gcc
 - gtk2
 - rpm  
+- libncurses5-dev
+- libncursesw5-dev  
 Note: The majority of development depencies on Linux are installed by running ```bash scripts/install.bash```.
 
 ## Preparing Environment
