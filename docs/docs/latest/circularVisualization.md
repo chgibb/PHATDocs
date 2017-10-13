@@ -59,6 +59,9 @@ PHAT allows "tracks" of data generated from alignments to be applied to figures,
 ### Creating Tracks
 PHAT allows visualization of alignment coverage and SNP positions as data tracks. By default, no tracks are available. Select a colour for the data track and then click "Generate Coverage Track" or "Generate SNP Track" beside the contig you want to generate a track for. This may take some time depending on the size of the read files and reference file involved. When the track generation is complete, it will be listed under the appropriate section at the top of the "Track Options" dialog, in the colour that it will be displayed in. Currently, you cannot change the colour of a data track after it has been generated.
 
+### Scaling Coverage Tracks
+By default, tracks are scaled by ```1```, that is, whatever depth is present in the alignment is used in the visualization. For alignments with extremely high coverage which are not visible, scaling tracks by a smaller number will shrink the visualization. Scaling by numbers larger than ```1``` will expand the visualization. The scaling factor used to generate a track cannot be changed after the track is generated.
+
 ![PHAT Generate Track](https://chgibb.github.io//PHATDocs/docs/latest/GenTrack.png)
 
 ### Viewing Tracks
@@ -77,7 +80,7 @@ To delete a figure, click "Figure Actions" on the top bar, then "Delete Figure".
 PHAT deals with "large figures" (references with millions of BP or 50 or more contigs) differently than other figures. By default, when creating a "large figure", it will not be interactive and the names of its contigs will not be displayed. These options can be toggled through the "Figure Options" menu. Note: Changing these default settings for "large figures" may freeze or crash PHAT or cause the figure to be unopenable in the future. These settings can be toggled on and off for all figures.
 
 ## Resizing Figures With Data Tracks
-When resizing figures with data tracks, PHAT must recalculate the layout of all points on the track relative to the new size of the figure. This is not instantaneous. It can take some time depending on the size of the track. "Recalculating x tracks" will appear on the top bar, where "x" is the number of tracks left to recalculate when tracks are being recalculated. If a figure is non-interactive, it will be treated as a data track and will also need to be recalculated. 
+When resizing figures with data tracks, PHAT must recalculate the layout of all points on the track relative to the new size of the figure. This is not instantaneous. It can take some time depending on the size of the tracks. You can open a different figure or close the genome builder entirely while this takes place.
 
 ## Performance
 At the time of writing, the genome builder tends to become slow when displaying many data tracks, particularly coverage tracks for large contigs. If you are trying to visualize many large data tracks, it is recommended to close other programs. Working with large, complex figures can become slow overtime. Unfortunately this is due to the technology the genome builder's editor is built upon. Changes made to a figure are saved as you make them but may take some time to reflect in the editor. In some cases it may be faster to make a change to a figure, close the genome builder and then open it again in a new window. We are working to try to improve the editor performance. You can always [help us out](https://github.com/chgibb/PHAT/pulls).
