@@ -1,6 +1,5 @@
 # PHAT $TAGNAME$
-### Downloads for This Release
-* [Windows Installer](https://github.com/chgibb/PHAT/releases/download/$TAGNAME$/phat-win32-x64-setup.exe)  
+### Downloads for This Release 
 * [Ubuntu Linux Debian Package](https://github.com/chgibb/PHAT/releases/download/$TAGNAME$/phat_$DEBTAGNAME$_amd64.deb)  
 * [Windows Portable](https://github.com/chgibb/PHAT/releases/download/$TAGNAME$/phat-win32-x64-portable.zip)  
 * [Linux Portable](https://github.com/chgibb/PHAT/releases/download/$TAGNAME$/phat-linux-x64-portable.tar.gz)
