@@ -40,7 +40,9 @@ PHAT publishes releases under "stable" and "beta" channels. By default, you will
 [Next: Working With PHAT Projects](https://chgibb.github.io/PHATDocs/docs/latest/projects)
 
 # About PHAT Updates and Releases
-PHAT updates are powered by Github releases. Each time PHAT is run, it will contact github.com and get the list of repository tags. It will look through the list of tags until it finds a tag version greater than its current version. If successful, the update in the form of ```phat-plat-x64-update.tar.gz``` will be downloaded and unpacked overtop of itself. These are special packages built specifically to be used as updates. They will not function correctly if downloaded and ran by themselves.
-See also: [check for update operation](https://github.com/chgibb/PHAT/blob/$TAGNAME$/src/req/operations/CheckForUpdate.ts), [download and install update operation](https://github.com/chgibb/PHAT/blob/$TAGNAME$/src/req/operations/DownloadAndInstallUpdate.ts). Update installation is handled very differently depending on the platform. See notes in the source code.
+PHAT updates are powered by Github releases. Each time PHAT is run, it will contact github.com and get the list of repository tags. It will look through the list of tags until it finds a tag version greater than its current version. If successful, the update in the form of ```phat-plat-x64-update-diff.tar.gz``` will be downloaded and unpacked overtop of PHAT. These are special packages built specifically to be used to deliver update differentials. They will not function if downloaded by themselves.
+
+PHAT publishes many different packages on each release. Most are used to support building updated differential packages.  
+See also: [check for update operation](https://github.com/chgibb/PHAT/blob/$TAGNAME$/src/req/operations/CheckForUpdate.ts), [download and install update operation](https://github.com/chgibb/PHAT/blob/$TAGNAME$/src/req/operations/DownloadAndInstallUpdate.ts), [how PHAT builds update differential packages](https://github.com/chgibb/PHAT/blob/$TAGNAME$/scripts/buildDiffUpdate.bash). Update installation is handled very differently depending on the platform. See notes in the source code.
 
 [Contents](https://chgibb.github.io/PHATDocs/docs/latest/home)
