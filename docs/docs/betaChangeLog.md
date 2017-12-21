@@ -1,1 +1,1 @@
-* * Overhauled handling of non-interactive figures 
+*Overhauled handling of non-interactive figures 
