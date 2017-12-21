@@ -9,14 +9,14 @@
 
 # Read Files
 
-PHAT's purpose is to make it easier to work with read files (```.fastq```) and reference sequences (```.fasta```, ```.fa```, etc); as such all aspects of PHAT revolve around these files. To input read files into PHAT, click "INPUT" on the toolbar. In the input window, click "BROWSE". By default, the file picker will only show you read files. After selecting read files to input, there may be a delay before they appear in the input window. PHAT will only do one task at a time. If you are doing other things with PHAT, inputting the files will wait until those other tasks have finished.
+PHAT's purpose is to make it easier to work with read files (```.fastq```) and reference sequences (```.fasta```, ```.fa```, etc); as such all aspects of PHAT revolve around these files. To input read files into PHAT, click "INPUT" on the toolbar. In the input window, click "BROWSE". By default, the file picker will only show you read files.
 
 ![PHAT Input Reads](https://chgibb.github.io//PHATDocs/docs/latest/InputReads2.png)
 ![PHAT Input Browse Reads](https://chgibb.github.io//PHATDocs/docs/latest/InputBrowseReads.png)
 ![PHAT Input Reads Success](https://chgibb.github.io//PHATDocs/docs/latest/InputReadsIn.png) 
 
 # Reference Sequences
-Inputting reference sequences follows the same process. Just click the "Ref Seq" button to change the input window to the Reference Sequence view.  
+Inputting reference sequences follows the same process. Click the "Ref Seq" button to change the input window to the Reference Sequence view.  
 
 Before reference sequences can be used for alignment, they must be indexed. Clicking on the text "Not Indexed" on an unindexed reference sequence will begin to index it. This process can take some time depending on the size of the file as well as the power of your computer. A good rule is to have some amount of RAM greater than or equal to the size of the file you want to index. If you are trying to index large files (greater than 500MB), it is recommended to close all other applications on your computer while the operation runs.  
 

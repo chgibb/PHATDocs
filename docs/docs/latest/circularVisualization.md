@@ -80,26 +80,27 @@ To delete a figure, click "Figure Actions" on the top bar, then "Delete Figure".
 PHAT deals with "large figures" (references with millions of BP or 50 or more contigs) differently than other figures. By default, when creating a "large figure", it will not be interactive and the names of its contigs will not be displayed. These options can be toggled through the "Figure Options" menu. Note: Changing these default settings for "large figures" may freeze or crash PHAT or cause the figure to be unopenable in the future. These settings can be toggled on and off for all figures.
 
 ## Resizing Figures With Data Tracks
-When resizing figures with data tracks, PHAT must recalculate the layout of all points on the track relative to the new size of the figure. This is not instantaneous. It can take some time depending on the size of the tracks. You can open a different figure or close the genome builder entirely while this takes place.
+When resizing figures with data tracks, PHAT must recalculate the layout of all points on the track relative to the new size of the figure. This is not instantaneous. It can take some time depending on the size of the tracks.
 
 ## Performance
-At the time of writing, the genome builder tends to become slow when displaying many data tracks, particularly coverage tracks for large contigs. If you are trying to visualize many large data tracks, it is recommended to close other programs. Working with large, complex figures can become slow overtime. Unfortunately this is due to the technology the genome builder's editor is built upon. Changes made to a figure are saved as you make them but may take some time to reflect in the editor. In some cases it may be faster to make a change to a figure, close the genome builder and then open it again in a new window. We are working to try to improve the editor performance. You can always [help us out](https://github.com/chgibb/PHAT/pulls).
+At the time of writing, the genome builder tends to become slow when displaying hundreds of thousands of points of sparse coverage. That is, coverage with little or no sections of identical depth. If you are trying to visualize many large data tracks of sparse coverage, it is recommended to switch the figure to "Non-interactive" mode. This mode is turned on by default for "Large Figures". We are always working to try to improve the editor performance. You can always [help us out](https://github.com/chgibb/PHAT/pulls).
+
+## Interactive vs Non-Interactive Figures
+### Interactive
+By default (except for "Large Figures"), figures are interactive. In interactive mode, PHAT uses a retained mode renderer based on ```SVG```s to display figures and allow them to react to mouse movements and clicks. Memory consumption can rapidly become a problem when displaying hundreds of thousands of points of coverage across one or more coverage tracks.
+
+### Non-Interactive
+In non-interactive mode, an immediate mode renderer based on ```canvas``` is used. This is far more performant in terms of both memory and CPU use for hundreds of thousands to millions of points of coverage and hundreds of contigs.
+
+### Key Differences
+The quality of figure in each mode is slightly different. "Non-interactive" mode favours quantity over quality. The quality of coverage tracks may therefore be degraded in "Non-interactive" mode.
 
 # About Circular Visualization in PHAT
-At its core, PHAT's circular visualization is based on the [Angular Plasmid](http://angularplasmid.vixis.com/) library. Angular Plasmid provides a set of AngularJS templates that make it incredibly easy to construct circular figures such as PHAT creates. PHAT expands upon Angular Plasmid by providing a core set of templating functions to build figures. Individual components, such as data tracks, or the "base figure" (all contigs, reference and custom) itself have their templates preassembled and saved to disk. 
+At its core, PHAT's circular visualization is based on the [Angular Plasmid](http://angularplasmid.vixis.com/) library. ```Angular Plasmid``` provides a set of AngularJS templates that make it incredibly easy to construct circular figures such as PHAT creates. PHAT expands upon ```Angular Plasmid``` by providing a core set of templating functions to build figures. Individual components, such as data tracks, or the "base figure" (all contigs, reference and custom) itself have their templates preassembled and saved to disk. 
 
-Data tracks are compiled into SVGs upon first generation as well as when a figure's radius changes. Tracks are compiled "against" a figure, that is, using the figure as the AngularJS scope for the track compilation. Whenever properties on a figure which tracks require (for now, just radius) changes, the genome builder will recompile all tracks for that figure (including tracks which are not visible) so that they will be available and accurate when shown. Tracks are compiled in a separate [process](https://github.com/chgibb/PHAT/blob/$TAGNAME$/src/compileTemplatesProcess.ts) using a form of server side rendering [(SSR)](https://github.com/chgibb/ng-node-compile).
-
-Unlike data tracks which are AOT compiled, with the resultant SVG being displayed on request, "base figures" are JIT compiled within the window whenever they are requested or a change is made to them. The reason for this, is to maintain AngularJS bindings so the figure remains interactive.
-
-When a figure is exported to SVG, the entire figure is JIT compiled into a single SVG in the window, which is then saved to disk.
+For data tracks (whether the figure is interactive or not) as well as the base figure in non-interactive mode, PHAT uses an ```Angular Plasmid``` compatible directive compiler, [ngPlasmid](https://github.com/chgibb/ngPlasmid). ```ngPlasmid``` was tailor made to power PHAT's genome builder. If you notice any performance issues or artifacts, consider filing an issue both on the [PHAT repository](https://github.com/chgibb/phat/issues) as well as on [ngPlasmid's repository](https://github.com/chgibb/ngPlasmid/issues).
 
 
 The majority of methods/classes involved in circular figure generation and manipulation are held [here](https://github.com/chgibb/PHAT/blob/$TAGNAME$/src/req/renderer/circularFigure.ts). Template generation methods in most cases are further wrapped by operations and never invoked directly in the renderer context of any window. These methods integrate with the project structure of PHAT to allow for persistence and lazy loading of pieces of figures. The genome builder takes this a step further by wrapping an in memory cache around the disk based methods of the ```circularFigure``` module to reduce trips to disk to fetch figure pieces.
-
-```circularFigure``` further defines a small ```FigureCanvas``` structure describing the assumptions that templates make about the Angular scope in which they will exist in. [This class](https://github.com/chgibb/PHAT/blob/$TAGNAME$/src/req/renderer/circularGenomeBuilderRenderer/genomeView.ts) drives the editor and provides the implementation for constructing and rendering figures as well as figure interactions.
-
-A rewrite of the visualization infrastructure at all levels to some kind of WebGL rendered DSL should probably happen.
-
 
 [Contents](https://chgibb.github.io/PHATDocs/docs/latest/home)
