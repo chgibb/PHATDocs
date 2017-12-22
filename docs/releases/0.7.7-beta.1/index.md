@@ -14,7 +14,7 @@
 * [Source for PHAT](https://github.com/chgibb/PHAT)
 
 ### Changelog
-*Overhauled handling of non-interactive figures   
+* Overhauled handling of non-interactive figures   
 [View full diff](https://github.com/chgibb/PHAT/compare/0.7.6-beta.1...0.7.7-beta.1) 
   
 ## 50 Commits Since Last Release (0.7.6-beta.1) (most recent last)  
