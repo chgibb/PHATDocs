@@ -1,3 +1,19 @@
+# PHAT 0.7.7
+### Downloads for This Release 
+* [Ubuntu Linux Debian Package](https://github.com/chgibb/PHAT/releases/download/0.7.7/phat_0.7.7_amd64.deb)  
+* [Windows Portable](https://github.com/chgibb/PHAT/releases/download/0.7.7/phat-win32-x64-portable.zip)  
+* [Linux Portable](https://github.com/chgibb/PHAT/releases/download/0.7.7/phat-linux-x64-portable.tar.gz)
+#### Experimental
+* [Red Hat Package Manager](https://github.com/chgibb/PHAT/releases/download/0.7.7/phat-0.7.7.x86_64.rpm)
+
+### Documentation for This Release
+* [Documentation](https://chgibb.github.io/PHATDocs/docs/releases/0.7.7/home)
+
+### Browse Source Code for This Release
+* [Source for PHAT@0.7.7](https://github.com/chgibb/PHAT/tree/0.7.7)
+* [Source for PHAT](https://github.com/chgibb/PHAT)
+
+### Changelog
 * Removed bolding on hover
 * Replaced loading modal in genome builder with a nav bar spinner
 * Allow scaling of coverage tracks when generating
