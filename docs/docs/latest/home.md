@@ -33,3 +33,4 @@ Gibb CM, Jackson R, Mohammed S, Fiaidhi J, Zehbe I. Pathogen-Host Analysis Tool 
 1. [Overview](https://chgibb.github.io/PHATDocs/docs/latest/archOverview)
 2. [Contributing](https://chgibb.github.io/PHATDocs/docs/latest/contributingGuide)
 3. [Repository Structure](https://chgibb.github.io/PHATDocs/docs/latest/repoStructure)
+4. [Performance](https://chgibb.github.io/PHATDocs/docs/latest/performance)

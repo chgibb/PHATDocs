@@ -83,4 +83,6 @@ All ```.scss``` style sheets. Organized by ```renderer``` processes.
 ## testData
 Files used by tests to verify correctness. 
 
+[Next: Performance](https://chgibb.github.io/PHATDocs/docs/latest/performance)
+
 [Contents](https://chgibb.github.io/PHATDocs/docs/latest/home)
