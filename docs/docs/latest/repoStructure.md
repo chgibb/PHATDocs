@@ -45,17 +45,42 @@ Contains all first party application code. Every ```.ts``` file in the top level
 Files in the top level represent the entry point of a process/helpers for that process. For instance, for some process ```foo``` which will run in the ```renderer``` context of ```Electron``` (an application window), there will be ```foo.html```, ```foo.ts``` and ```fooRenderer.ts```. ```foo.html``` being the initial HTML file loaded upon invocation of the window, ```foo.ts``` will be loaded by ```foo.html``` in order to load or compile a code cache for ```fooRenderer.ts```. ```fooRenderer.ts``` should contain all code needed to make the window function.  
 
 
-For some process ```bar``` which should run in a standard ```Node``` context (usually as part of an [atomic operation](https://github.com/chgibb/PHAT/blob/master/src/req/operations/atomicOperations.ts) though not strictly necessary), there will be ```bar.ts``` and ```barProcess.ts```. ```bar.ts``` will be invoked in order to load or compile a code cache for ```barProcess.ts```. All process logic should reside in ```barProcess.ts```.
+For some process ```bar``` which should run in a standard ```Node``` context (usually as part of an [atomic operation](https://github.com/chgibb/PHAT/blob/$TAGNAME$/src/req/operations/atomicOperations.ts) though not strictly necessary), there will be ```bar.ts``` and ```barProcess.ts```. ```bar.ts``` will be invoked in order to load or compile a code cache for ```barProcess.ts```. All process logic should reside in ```barProcess.ts```.
 
 In all cases ```foo.ts``` and ```bar.ts``` should be nothing more than dumb bootstrappers for their corresponding ```*Renderer.ts```/```*Process.ts``` files.
+
+```src/tests.ts``` is the entry point for the integration test harness. It expects to run as a standard ```Node``` process (no ```Electron```), inside of a PHAT application package.
+
+```src/wcHost.html``` and ```src/wcHost.ts``` are the other exception to the above rule. ```wcHost.*``` serves to provide the most basic of functionality to allow a ```renderer``` window to host an ```Electron.webContents``` instance inside of a ```<webview>``` and to attach an existing ```Electron.webContents``` over ```IPC```. This is used when undocking tabs from the tool bar.
+
+### src/guiTests
+Files in the top level are entry points for smoke tests, simulating a user moving around and interacting with the application.
+
+### src/installUpdateProcess
+Platform specific files (and Windows build script) for the process which performs update installation on those platforms and environments which support it.
+
+### src/guiTests/req
+Supporting modules to automate actions for smoke tests (such as clicking buttons, opening and closing things). Further subdivided by which part of the application the action interacts with.
 
 ### src/req
 All modules ```import```ed by other modules. Nothing under this directory represents an entry point for an individual process.
 
-### src/main
+### src/req/main
 Modules used by the ```main process```. Each ```fooRenderer.ts``` file in the top level has a corresponding ```foo.ts``` file under this directory to register the window with the main process at application startup.
 
-### src/operations
+### src/req/operations
 Each file in the top level of this directory contains a single operation. Sub directories correspond to helper modules/pieces of their corresponding operation. Some operations use modules which are not stored here.
+
+### src/req/renderer
+Modules used by ```renderer``` processes.
+
+### src/req/tests
+Modules used by the integration test harness.
+
+### src/styles
+All ```.scss``` style sheets. Organized by ```renderer``` processes.
+
+## testData
+Files used by tests to verify correctness. 
 
 [Contents](https://chgibb.github.io/PHATDocs/docs/latest/home)
