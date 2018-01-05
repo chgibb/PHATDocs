@@ -23,9 +23,9 @@ Click on "View Report" to view the report in full. See [FastQC's documentation](
 
 [Next: Running Alignments](https://chgibb.github.io/PHATDocs/docs/latest/runningAlignments)
 
+[Contents](https://chgibb.github.io/PHATDocs/docs/latest/home)
+
+
 # About QC Reports
 PHAT makes use of a modifed version of FastQC. It, as well as more details can be found [here](https://github.com/chgibb/FastQC0.11.5).  
 See: [QC report class](https://github.com/chgibb/PHAT/blob/$TAGNAME$/src/req/QCData.ts), [QC report parser](https://github.com/chgibb/PHAT/blob/$TAGNAME$/QCReportSummary.ts), [generate QC report operation](https://github.com/chgibb/PHAT/blob/$TAGNAME$/src/req/operations/GenerateQCReport.ts)
-
-
-[Contents](https://chgibb.github.io/PHATDocs/docs/latest/home)

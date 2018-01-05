@@ -18,7 +18,8 @@ At the moment, parameters to tune and customize the steps in PHAT's alignment pr
 
 [Next: Reports and Analyses](https://chgibb.github.io/PHATDocs/docs/latest/reportsAndAnalyses)
 
+[Contents](https://chgibb.github.io/PHATDocs/docs/latest/home)
+
+
 # About Running Alignments
 See: [Class for information about a completed alignment](https://github.com/chgibb/PHAT/blob/$TAGNAME$/src/req/alignData.ts), [alignment operation](https://github.com/chgibb/PHAT/blob/$TAGNAME$/src/req/operations/RunAlignment.ts).
-
-[Contents](https://chgibb.github.io/PHATDocs/docs/latest/home)

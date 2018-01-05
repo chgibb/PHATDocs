@@ -44,5 +44,4 @@ At the time of writing, PHAT uses Varscan to predict indels. However, we lack te
 
 [Next: Circular Visualization](https://chgibb.github.io/PHATDocs/docs/latest/circularVisualization)
 
-
 [Contents](https://chgibb.github.io/PHATDocs/docs/latest/home)

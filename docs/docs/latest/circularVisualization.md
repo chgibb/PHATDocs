@@ -95,6 +95,8 @@ In non-interactive mode, an immediate mode renderer based on ```canvas``` is use
 ### Key Differences
 The quality of figure in each mode is slightly different. "Non-interactive" mode favours quantity over quality. The quality of coverage tracks may therefore be degraded in "Non-interactive" mode.
 
+[Contents](https://chgibb.github.io/PHATDocs/docs/latest/home)
+
 # About Circular Visualization in PHAT
 At its core, PHAT's circular visualization is based on the [Angular Plasmid](http://angularplasmid.vixis.com/) library. ```Angular Plasmid``` provides a set of AngularJS templates that make it incredibly easy to construct circular figures such as PHAT creates. PHAT expands upon ```Angular Plasmid``` by providing a core set of templating functions to build figures. Individual components, such as data tracks, or the "base figure" (all contigs, reference and custom) itself have their templates preassembled and saved to disk. 
 
@@ -102,5 +104,3 @@ For data tracks (whether the figure is interactive or not) as well as the base f
 
 
 The majority of methods/classes involved in circular figure generation and manipulation are held [here](https://github.com/chgibb/PHAT/blob/$TAGNAME$/src/req/renderer/circularFigure.ts). Template generation methods in most cases are further wrapped by operations and never invoked directly in the renderer context of any window. These methods integrate with the project structure of PHAT to allow for persistence and lazy loading of pieces of figures. The genome builder takes this a step further by wrapping an in memory cache around the disk based methods of the ```circularFigure``` module to reduce trips to disk to fetch figure pieces.
-
-[Contents](https://chgibb.github.io/PHATDocs/docs/latest/home)
