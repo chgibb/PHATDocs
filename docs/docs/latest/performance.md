@@ -30,6 +30,9 @@ Over time, the currently employed set of bundle optimizations has evolved. Regul
 [Uglify-es](https://www.npmjs.com/package/uglify-es) is used to eliminate whitespace and strip comments, the majority of bundle size. Currently, property names are depended upon heavily at runtime. If we can figure out how to enable aggressive optimizations (such as symbol renaming) without breaking PHAT, there will be far more savings to be had.
 
 ### IIF/IIFE Optimizations
-[Optimize-js](https://github.com/nolanlawson/optimize-js) is applied as a final step. A fantastic explanation and discussion is included at the link. 
+[Optimize-js](https://github.com/nolanlawson/optimize-js) is applied as a final step. A fantastic explanation and discussion is included at the link.
+
+## Circular Visualization Performance
+[ngPlasmid](https://github.com/chgibb/ngPlasmid) drives PHAT's circular visualization. ```ngPlasmid``` was born out of an attempt to improve the performance of [Angular Plasmid](https://github.com/vixis/angularplasmid), upon which PHAT's circular visualization is based. Discussion on techniques employed can be found in its [repository](https://github.com/chgibb/ngPlasmid).
 
 [Contents](https://chgibb.github.io/PHATDocs/docs/latest/home)
