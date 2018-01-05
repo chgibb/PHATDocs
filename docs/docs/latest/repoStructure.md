@@ -3,6 +3,8 @@
 #### For $TAGNAME$
 [Contents](https://chgibb.github.io/PHATDocs/docs/latest/home)
 
+[Previous: Contributing](https://chgibb.github.io/PHATDocs/docs/latest/contributingGuide)
+
 # Repository Structure
 
 ## forDist/
