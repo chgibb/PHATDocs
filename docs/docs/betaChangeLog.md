@@ -1,13 +1,50 @@
-* Mitigation for [CVE-2018-1000006](https://electronjs.org/blog/protocol-handler-fix)  
-[View full diff](https://github.com/chgibb/PHAT/compare/0.7.9-beta.1...0.7.10-beta.1) 
-  
-## 9 Commits Since Last Release (0.7.9-beta.1) (most recent last)  
-Chris Gibb: [Merge pull request #729 from chgibb/beta  Promote 0.7.7-beta.1 to Stable](https://github.com/chgibb/PHAT/commit/8c490204e58704df44c2856acaa92c6e518fc0bb)  
-Chris Gibb: [updated beta links](https://github.com/chgibb/PHAT/commit/da40e234fdb4a71ea3891f392519c975e3838ffd)  
-Chris Gibb: [Merge branch 'stable-staging' into beta](https://github.com/chgibb/PHAT/commit/9ad179031d25c980c605158a5d7cf9d4e01c9ba8)  
-Chris Gibb: [Bump electron to 1.7.11 to mitigate CVE-2018-1000006](https://github.com/chgibb/PHAT/commit/76c8c6e4fb1e9c23aa39e5455b43dc3a3b68fc2b)  
-Chris Gibb: [Merge branch 'beta-staging' into master](https://github.com/chgibb/PHAT/commit/389fef738086f604c397d1309155c9b32236a55c)  
-Chris Gibb: [Merge pull request #743 from chgibb/master  Bump electron to 1.7.11 to mitigate CVE-2018-1000006](https://github.com/chgibb/PHAT/commit/459fd259770361fcf3892755e434aee3e371e280)  
-Chris Gibb: [Merge branch 'beta' into beta-staging](https://github.com/chgibb/PHAT/commit/d4cbd83e5395086a1ae4459ba31d2d21f5323566)  
-Chris Gibb: [Merge pull request #744 from chgibb/beta-staging  Bump electron to 1.7.11 to mitigate CVE-2018-1000006](https://github.com/chgibb/PHAT/commit/13ce852b7bf597520cd3df58a3e3db5199f118a7)  
-Chris Gibb: [Bumped to 0.7.10-beta.1](https://github.com/chgibb/PHAT/commit/67786aa104ae2dbc1145532dd8a8b1dffa4b208a)  
+![PHAT Input Reads Success](https://chgibb.github.io//PHATDocs/docs/releases/0.7.6-beta.1/InputReadsIn.png)
+
+![PHAT Output Align](https://chgibb.github.io//PHATDocs/docs/releases/0.7.6-beta.1/OutputAlign.png)
+
+![PHAT Output SNP pileup](https://chgibb.github.io//PHATDocs/docs/releases/0.7.6-beta.1/OutputSNPpileup.png)
+
+![PHAT Edited Contig](https://chgibb.github.io//PHATDocs/docs/releases/0.7.6-beta.1/EditedContig.png)![PHAT Add Contig](https://chgibb.github.io//PHATDocs/docs/releases/0.7.6-beta.1/AddContig.png)
+
+![PHAT Tool Bar](https://chgibb.github.io//PHATDocs/docs/releases/0.1.0-beta.1/covHPV16white.png)
+
+![PHAT Action Shot 1](https://chgibb.github.io//PHATDocs/docs/latest/actionShot1.png)
+
+### [Latest Stable Release: PHAT@0.7.9](https://chgibb.github.io/PHATDocs/releases/0.7.9/index)
+## Documentation Quicklinks
+1. [How to Get PHAT](https://chgibb.github.io/PHATDocs/docs/releases/0.7.9/howToGetPHAT)
+2. [Working With PHAT Projects](https://chgibb.github.io/PHATDocs/docs/releases/0.7.9/projects)
+3. [Inputting Files](https://chgibb.github.io/PHATDocs/docs/releases/0.7.9/inputtingFiles)
+4. [Running Quality Control (QC) Reports](https://chgibb.github.io/PHATDocs/docs/releases/0.7.9/QCReports)
+5. [Running Alignments](https://chgibb.github.io/PHATDocs/docs/releases/0.7.9/runningAlignments)
+6. [Reports and Analyses](https://chgibb.github.io/PHATDocs/docs/releases/0.7.9/reportsAndAnalyses)
+7. [Circular Visualization](https://chgibb.github.io/PHATDocs/docs/releases/0.7.9/circularVisualization)
+
+### Application Architecture
+1. [Overview](https://chgibb.github.io/PHATDocs/docs/releases/0.7.9/archOverview)
+2. [Contributing](https://chgibb.github.io/PHATDocs/docs/releases/0.7.9/contributingGuide)
+3. [Repository Structure](https://chgibb.github.io/PHATDocs/docs/releases/0.7.9/repoStructure)
+
+The Pathogen-Host Analysis Tool (PHAT) is an application for processing and analyzing next-generation sequencing (NGS) data as it relates to relationships between pathogen and host organisms. PHAT provides quality control (QC) reporting on sequence files, alignment of sequence files against reference files, single-nucleotide polymorphism (SNP) prediction, linear and circular alignment viewing, and Excel and comma separated values (CSV) output.
+
+PHAT is under development in the Zehbe Lab ([http://zehbelab.weebly.com/](http://zehbelab.weebly.com/)) at the Thunder Bay Regional Health Research Institute (TBRHRI) and Lakehead University (LU) under the supervison of Dr. Ingeborg Zehbe. This work is supported by a Natural Sciences and Engineering Research Council of Canada (NSERC) Discovery grant to Dr. Ingeborg Zehbe (#RGPIN-2015-03855) and a NSERC Alexander Graham Bell Canada Graduate Scholarship-Doctoral (CGS-D) to Robert Jackson (#454402-2014).  
+
+**Project Supervisor/Principal Investigator:** Dr. Ingeborg Zehbe, LU/TBRHRI Research Chair & Senior Scientist    
+**Project Lead/Biologist:** Robert Jackson, PhD Biotech Candidate    
+**Project Lead/Software Developer:** Chris Gibb, HBSc Comp Sci Student  
+**Team Members:** Mitchell Pynn, Shane Liu, Jeremy Braun, Nick Catanzaro, Zachary Moorman
+
+**How to Cite PHAT (pre-print):**
+
+Gibb CM, Jackson R, Mohammed S, Fiaidhi J, Zehbe I. Pathogen-Host Analysis Tool (PHAT): an Integrative Platform to Analyze Pathogen-Host Relationships in Next-Generation Sequencing Data. bioRxiv. https://doi.org/10.1101/178327
+
+### [Latest Beta Release: PHAT@0.7.10-beta.1](https://chgibb.github.io/PHATDocs/releases/0.7.10-beta.1/index)
+
+### [Release History](https://chgibb.github.io/PHATDocs/allReleases)
+
+[![](https://tokei.rs/b1/github/chgibb/PHAT?category=files)](https://github.com/Aaronepower/tokei) [![](https://tokei.rs/b1/github/chgibb/PHAT?category=lines)](https://github.com/Aaronepower/tokei)  
+
+| Build Statuses        | master           | beta  | stable  |
+| ------------- |:-------------:| :-----:|:-------:|
+| Windows       | ![AppVeyor branch](https://ci.appveyor.com/api/projects/status/k0awa1ask2ilarkn/branch/master?svg=true) | ![AppVeyor branch](https://ci.appveyor.com/api/projects/status/k0awa1ask2ilarkn/branch/beta?svg=true) | ![AppVeyor branch](https://ci.appveyor.com/api/projects/status/k0awa1ask2ilarkn/branch/stable?svg=true)
+| Linux         | [![Build Status](https://travis-ci.org/chgibb/PHAT.svg?branch=master)](https://travis-ci.org/chgibb/PHAT)      |   [![Build Status](https://travis-ci.org/chgibb/PHAT.svg?branch=beta)](https://travis-ci.org/chgibb/PHAT) |  [![Build Status](https://travis-ci.org/chgibb/PHAT.svg?branch=stable)](https://travis-ci.org/chgibb/PHAT)
