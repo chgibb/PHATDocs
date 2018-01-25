@@ -1,3 +1,19 @@
+# PHAT 0.7.10
+### Downloads for This Release 
+* [Ubuntu Linux Debian Package](https://github.com/chgibb/PHAT/releases/download/0.7.10/phat_0.7.10_amd64.deb)  
+* [Windows Portable](https://github.com/chgibb/PHAT/releases/download/0.7.10/phat-win32-x64-portable.zip)  
+* [Linux Portable](https://github.com/chgibb/PHAT/releases/download/0.7.10/phat-linux-x64-portable.tar.gz)
+#### Experimental
+* [Red Hat Package Manager](https://github.com/chgibb/PHAT/releases/download/0.7.10/phat-0.7.10.x86_64.rpm)
+
+### Documentation for This Release
+* [Documentation](https://chgibb.github.io/PHATDocs/docs/releases/0.7.10/home)
+
+### Browse Source Code for This Release
+* [Source for PHAT@0.7.10](https://github.com/chgibb/PHAT/tree/0.7.10)
+* [Source for PHAT](https://github.com/chgibb/PHAT)
+
+### Changelog
 * Mitigation for [CVE-2018-1000006](https://electronjs.org/blog/protocol-handler-fix)    
 [View full diff](https://github.com/chgibb/PHAT/compare/0.7.9...0.7.10) 
   
