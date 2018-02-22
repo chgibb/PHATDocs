@@ -1,0 +1,1 @@
+* Fixed leftover hotkey for half-baked sequence selection. Changed to Ctrl+Shift+Other
