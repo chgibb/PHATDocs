@@ -1,3 +1,19 @@
+# PHAT 0.8.0-beta.3
+### Downloads for This Release 
+* [Ubuntu Linux Debian Package](https://github.com/chgibb/PHAT/releases/download/0.8.0-beta.3/phat_0.8.0.beta.3_amd64.deb)  
+* [Windows Portable](https://github.com/chgibb/PHAT/releases/download/0.8.0-beta.3/phat-win32-x64-portable.zip)  
+* [Linux Portable](https://github.com/chgibb/PHAT/releases/download/0.8.0-beta.3/phat-linux-x64-portable.tar.gz)
+#### Experimental
+* [Red Hat Package Manager](https://github.com/chgibb/PHAT/releases/download/0.8.0-beta.3/phat-0.8.0-beta.3.x86_64.rpm)
+
+### Documentation for This Release
+* [Documentation](https://chgibb.github.io/PHATDocs/docs/releases/0.8.0-beta.3/home)
+
+### Browse Source Code for This Release
+* [Source for PHAT@0.8.0-beta.3](https://github.com/chgibb/PHAT/tree/0.8.0-beta.3)
+* [Source for PHAT](https://github.com/chgibb/PHAT)
+
+### Changelog
 * CI fixes  
 [View full diff](https://github.com/chgibb/PHAT/compare/0.8.0-beta.2...0.8.0-beta.3) 
   
