@@ -1,3 +1,19 @@
+# PHAT 0.8.0
+### Downloads for This Release 
+* [Ubuntu Linux Debian Package](https://github.com/chgibb/PHAT/releases/download/0.8.0/phat_0.8.0_amd64.deb)  
+* [Windows Portable](https://github.com/chgibb/PHAT/releases/download/0.8.0/phat-win32-x64-portable.zip)  
+* [Linux Portable](https://github.com/chgibb/PHAT/releases/download/0.8.0/phat-linux-x64-portable.tar.gz)
+#### Experimental
+* [Red Hat Package Manager](https://github.com/chgibb/PHAT/releases/download/0.8.0/phat-0.8.0.x86_64.rpm)
+
+### Documentation for This Release
+* [Documentation](https://chgibb.github.io/PHATDocs/docs/releases/0.8.0/home)
+
+### Browse Source Code for This Release
+* [Source for PHAT@0.8.0](https://github.com/chgibb/PHAT/tree/0.8.0)
+* [Source for PHAT](https://github.com/chgibb/PHAT)
+
+### Changelog
 * Disallow triggering multiple of the same operation through UI loading indicators  
   
 [View full diff](https://github.com/chgibb/PHAT/compare/0.7.13...0.8.0) 
