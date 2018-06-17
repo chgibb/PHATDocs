@@ -26,11 +26,16 @@ Over time, the currently employed set of bundle optimizations has evolved. Regul
 ### Bundle Collapsing
 [bundle collapsing](https://github.com/substack/bundle-collapser) is used to remove paths from ```require``` statements and turn them into integers. This has shown to be a non-trivial share of bundle size.
 
+### Name Mangling
+Babel's [minify-mangle-names](https://babeljs.io/docs/en/babel-plugin-minify-mangle-names/) plugin is used to shorten variable, parameter, class and function names. Other Babel plugins for minification should also be investigated.
+
 ### Minification
-[Uglify-es](https://www.npmjs.com/package/uglify-es) is used to eliminate whitespace and strip comments, the majority of bundle size. Currently, property names are depended upon heavily at runtime. If we can figure out how to enable aggressive optimizations (such as symbol renaming) without breaking PHAT, there will be far more savings to be had.
+[Uglify-es](https://www.npmjs.com/package/uglify-es) is used to eliminate whitespace and strip comments, the majority of bundle size.
 
 ### IIF/IIFE Optimizations
 [Optimize-js](https://github.com/nolanlawson/optimize-js) is applied as a final step. A fantastic explanation and discussion is included at the link.
+
+Currently, property names are depended upon heavily at runtime. If we can figure out how to mangle or safely rename property names without breaking PHAT, there will be far more savings to be had.
 
 ## Circular Visualization Performance
 [ngPlasmid](https://github.com/chgibb/ngPlasmid) drives PHAT's circular visualization. ```ngPlasmid``` was born out of an attempt to improve the performance of [Angular Plasmid](https://github.com/vixis/angularplasmid), upon which PHAT's circular visualization is based. Discussion on techniques employed can be found in its [repository](https://github.com/chgibb/ngPlasmid).
