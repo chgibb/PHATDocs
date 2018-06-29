@@ -20,6 +20,9 @@ Through ```Node.js```' [VM module](https://nodejs.org/api/vm.html), we make heav
 ## Javascript Bundle Optimizations
 Over time, the currently employed set of bundle optimizations has evolved. Regular benchmarking has shown these specific optimizations, in the specific order they are listed yields fastest loading code (when combined with code caching, as described above). Performance benchmarking should be a continuous process. These are always subject to change if better performance can be had.
 
+### ```--importHelpers``` Typescript Compiler Switch
+While not an optimization applied to a bundle per-se, this switch, when combined with ```--module ES2015``` and RollupJS has been shown to shave a few kilobytes off of bundles which heavily use features which depend on Typescript runtime helpers. A good discussion on the topic can be found [here](https://blog.mariusschulz.com/2016/12/16/typescript-2-1-external-helpers-library).
+
 ### RollupJS
 [RollupJS](https://github.com/rollup/rollup) is used to pair down first party code to the minimum required at runtime. ```require``` statements for third-party modules are localised to the functions which require them in an attempt to eliminate bundling of third-party code into processes which don't require it.
 
@@ -27,7 +30,16 @@ Over time, the currently employed set of bundle optimizations has evolved. Regul
 [bundle collapsing](https://github.com/substack/bundle-collapser) is used to remove paths from ```require``` statements and turn them into integers. This has shown to be a non-trivial share of bundle size.
 
 ### Name Mangling
-Babel's [minify-mangle-names](https://babeljs.io/docs/en/babel-plugin-minify-mangle-names/) plugin is used to shorten variable, parameter, class and function names. Other Babel plugins for minification should also be investigated.
+Babel's [minify-mangle-names](https://babeljs.io/docs/en/babel-plugin-minify-mangle-names/) plugin is used to shorten variable, parameter, class and function names.
+
+### Simplify Type Constructors
+Using [babel-plugin-minify-type-constructors](https://github.com/babel/minify/tree/master/packages/babel-plugin-minify-type-constructors).
+
+### Dead Code Elimination
+Using [babel-plugin-minify-dead-code-elimination](https://github.com/babel/minify/tree/master/packages/babel-plugin-minify-dead-code-elimination).
+
+### Simplify Constant Folding
+Using [babel-plugin-minify-constant-folding](https://github.com/babel/minify/tree/master/packages/babel-plugin-minify-constant-folding).
 
 ### Minification
 [Uglify-es](https://www.npmjs.com/package/uglify-es) is used to eliminate whitespace and strip comments, the majority of bundle size.
