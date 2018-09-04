@@ -43,6 +43,8 @@ Gibb CM, Jackson R, Mohammed S, Fiaidhi J, Zehbe I. Pathogen-Host Analysis Tool 
 
 ### [Release History](https://chgibb.github.io/PHATDocs/allReleases)
 
+![Github All Releases](https://img.shields.io/github/downloads/chgibb/PHAT/total.svg)
+
 [![](https://tokei.rs/b1/github/chgibb/PHAT?category=files)](https://github.com/Aaronepower/tokei) [![](https://tokei.rs/b1/github/chgibb/PHAT?category=lines)](https://github.com/Aaronepower/tokei)  
 
 | Build Statuses        | master           | beta  | stable  |
