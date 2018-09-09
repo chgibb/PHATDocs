@@ -47,3 +47,6 @@ Selecting a column will give a read by read breakdown.
 For each read BLASTed, the position at which the read began aligning on the reference, the full read, BLAST's top hit for the read, and the top hit's E-value are given. Unaligned fragments in the read are displayed inside the read in red text at the position they actually appear in the read. Hovering over an unaligned fragment will show BLAST's top hit for that fragment.
 
 [Contents](https://chgibb.github.io/PHATDocs/docs/latest/home)
+
+# About BLASTing Alignments in PHAT
+This functionality is effectively programmatic use of NCBI's BLAST API. As such, we try to be good API citizens. BLAST requests are only submitted one at a time, and requests for status are submitted with appropriate delay based on [BLAST's API guidelines](https://blast.ncbi.nlm.nih.gov/Blast.cgi?CMD=Web&PAGE_TYPE=BlastDocs&DOC_TYPE=DeveloperInfo). The core API submission and polling logic is implemented [here](https://github.com/chgibb/PHAT/blob/$TAGNAME$/src/BLASTSegmentProcess.ts), based on [BLAST's sample Perl code](https://blast.ncbi.nlm.nih.gov/docs/web_blast.pl).
