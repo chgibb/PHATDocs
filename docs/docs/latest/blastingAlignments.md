@@ -36,4 +36,8 @@ For the selected alignment, reads which aligned starting between the selected st
 PHAT will report progress on a particular "BLAST Run" (the algorithm described above) in terms of identified "suspicious" reads and BLASTed "suspicious" fragments and reads. When complete, results can be viewed by clicking on the "BLAST Runs" column for the BLASTed alignment in the Output window.
 ![BLAST Runs1](https://chgibb.github.io/PHATDocs/docs/latest/alignBLASTRuns1.png)
 
+All the "BLAST Runs" for the given alignment, including their start and end positions, how many "suspicious" reads where actually submitted for BLASTing and the program used are viewable here.
+
+![BLAST Runs2](https://chgibb.github.io/PHATDocs/docs/latest/alignBLASTRuns2.png)
+
 [Contents](https://chgibb.github.io/PHATDocs/docs/latest/home)
