@@ -28,6 +28,7 @@ Gibb CM, Jackson R, Mohammed S, Fiaidhi J, Zehbe I. Pathogen-Host Analysis Tool 
 5. [Running Alignments](https://chgibb.github.io/PHATDocs/docs/latest/runningAlignments)
 6. [Reports and Analyses](https://chgibb.github.io/PHATDocs/docs/latest/reportsAndAnalyses)
 7. [Circular Visualization](https://chgibb.github.io/PHATDocs/docs/latest/circularVisualization)
+8. [BLASTing Alignments](https://chgibb.github.io/PHATDocs/docs/latest/blastingAlignments)
 
 ### Application Architecture
 1. [Overview](https://chgibb.github.io/PHATDocs/docs/latest/archOverview)

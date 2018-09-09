@@ -95,6 +95,8 @@ In non-interactive mode, an immediate mode renderer based on ```canvas``` is use
 ### Key Differences
 The quality of figure in each mode is slightly different. "Non-interactive" mode favours quantity over quality. The quality of coverage tracks may therefore be degraded in "Non-interactive" mode.
 
+[Next: BLASTing Alignments](https://chgibb.github.io/PHATDocs/docs/latest/blastingAlignments)
+
 [Contents](https://chgibb.github.io/PHATDocs/docs/latest/home)
 
 # About Circular Visualization in PHAT
