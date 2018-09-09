@@ -14,7 +14,7 @@ PHAT provides automated submission, retrieval and interpretation of [NCBI](https
 
 ## Selecting a Reference Sequence Range to BLAST
 ![PHAT Circ Toolbar](https://chgibb.github.io/PHATDocs/docs/latest/CircToolbar2.png)
-![Figure Actions](https://chgibb.github.io/docs/latest/figureActions1.png)
+![Figure Actions](https://chgibb.github.io/PHATDocs/docs/latest/figureActions1.png)
 
 
 [Contents](https://chgibb.github.io/PHATDocs/docs/latest/home)
