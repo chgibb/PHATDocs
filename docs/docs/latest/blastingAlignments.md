@@ -14,7 +14,13 @@ PHAT provides automated submission, retrieval and interpretation of [NCBI](https
 
 ## Selecting a Reference Sequence Range to BLAST
 ![PHAT Circ Toolbar](https://chgibb.github.io/PHATDocs/docs/latest/CircToolbar2.png)
+
+Selecting "Figure Actions", "Select Sequence" on an open figure will began an interactive sequence selection interface.
+
 ![Figure Actions](https://chgibb.github.io/PHATDocs/docs/latest/figureActions1.png)
+
+
+![Select Sequence1](https://chgibb.github.io/PHATDocs/docs/latest/selectSequence1.png)
 
 
 [Contents](https://chgibb.github.io/PHATDocs/docs/latest/home)
