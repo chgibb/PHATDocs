@@ -40,4 +40,10 @@ All the "BLAST Runs" for the given alignment, including their start and end posi
 
 ![BLAST Runs2](https://chgibb.github.io/PHATDocs/docs/latest/alignBLASTRuns2.png)
 
+Selecting a column will give a read by read breakdown.
+
+![BLAST Runs3](https://chgibb.github.io/PHATDocs/docs/latest/alignBLASTRuns3.png)
+
+For each read BLASTed, the position at which the read began aligning on the reference, the full read, BLAST's top hit for the read, and the top hit's E-value are given. Unaligned fragments in the read are displayed inside the read in red text at the position they actually appear in the read. Hovering over an unaligned fragment will show BLAST's top hit for that fragment.
+
 [Contents](https://chgibb.github.io/PHATDocs/docs/latest/home)
