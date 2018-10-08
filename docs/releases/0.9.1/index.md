@@ -1,3 +1,19 @@
+# PHAT 0.9.1
+### Downloads for This Release 
+* [Ubuntu Linux Debian Package](https://github.com/chgibb/PHAT/releases/download/0.9.1/phat_0.9.1_amd64.deb)  
+* [Windows Portable](https://github.com/chgibb/PHAT/releases/download/0.9.1/phat-win32-x64-portable.zip)  
+* [Linux Portable](https://github.com/chgibb/PHAT/releases/download/0.9.1/phat-linux-x64-portable.tar.gz)
+#### Experimental
+* [Red Hat Package Manager](https://github.com/chgibb/PHAT/releases/download/0.9.1/phat-0.9.1.x86_64.rpm)
+
+### Documentation for This Release
+* [Documentation](https://chgibb.github.io/PHATDocs/docs/releases/0.9.1/home)
+
+### Browse Source Code for This Release
+* [Source for PHAT@0.9.1](https://github.com/chgibb/PHAT/tree/0.9.1)
+* [Source for PHAT](https://github.com/chgibb/PHAT)
+
+### Changelog
 * Average of 30.86% size reduction across application bundles.
 * Honourable mentions: Pileup Alignment Viewer 83% smaller, Genome Builder 32% smaller  
 * ~10x performance improvement rendering non-interactive figures in the Genome Builder
