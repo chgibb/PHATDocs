@@ -1,1 +1,1 @@
-* Updated citation PHAT citation to point to Bioinformatics
+* Updated PHAT citation to point to Bioinformatics
