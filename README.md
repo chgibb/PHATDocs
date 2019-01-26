@@ -17,5 +17,5 @@ Where ```<token>``` is a GitHub token with permission to create releases on http
 # Contributing
 Please make all PRs against those files in ```docs/docs/latest/```. All files in latest are used to build documentation for the latest release when it is cut. Unless there is erroneous information in documentation for previous releases, they should be left as is.
 
-# How to Cite PHAT (pre-print)
-Gibb CM, Jackson R, Mohammed S, Fiaidhi J, Zehbe I. Pathogen-Host Analysis Tool (PHAT): an Integrative Platform to Analyze Pathogen-Host Relationships in Next-Generation Sequencing Data. bioRxiv. https://doi.org/10.1101/178327
+# How to Cite PHAT
+Gibb CM, Jackson R, Mohammed S, Fiaidhi J, Zehbe I. Pathogen-Host Analysis Tool (PHAT): an integrative platform to analyze next-generation sequencing data. *Bioinformatics*. 2018. DOI: [10.1093/bioinformatics/bty1003](https://doi.org/10.1093/bioinformatics/bty1003)
