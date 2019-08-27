@@ -1,6 +1,7 @@
 ---
 title: All Releases
 ---
+Mon Aug 26 2019 22:13:12 GMT-0400 (Eastern Daylight Time): [PHAT@0.12.0-beta.3](https://chgibb.github.io/PHATDocs/releases/0.12.0-beta.3/index) cut from beta  
 Mon Aug 19 2019 21:54:01 GMT-0400 (Eastern Daylight Time): [PHAT@0.12.0-beta.2](https://chgibb.github.io/PHATDocs/releases/0.12.0-beta.2/index) cut from beta  
 Mon Aug 05 2019 22:20:12 GMT-0400 (Eastern Daylight Time): [PHAT@0.12.0-beta.1](https://chgibb.github.io/PHATDocs/releases/0.12.0-beta.1/index) cut from beta  
 Mon Aug 05 2019 21:06:06 GMT-0400 (Eastern Daylight Time): [PHAT@0.11.0](https://chgibb.github.io/PHATDocs/releases/0.11.0/index) cut from stable  
